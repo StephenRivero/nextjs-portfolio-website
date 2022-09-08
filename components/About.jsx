@@ -10,9 +10,9 @@ const About = () => {
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>// I am not your normal developer</p>
                 <p className='py-2 text-gray-600 text-justify'>
-                    I have spent 7 years as a Licensed Sanitary Engineer in the field of Food Manufacturing, Construction Industry, and Sales Industry. 
-                    Since the passing of my father in September 2021, a lot has changed within me. I decided to pursue Front-End Web Development starting in January 2022. 
-                    I learned my front-end coding fundamentals, HTML5, CSS3, and JavaScript at the free online course “The Odin Project” where its goal is to help aspiring web developers. 
+                    I have 7 years professional experience as a Licensed Sanitary Engineer in the field of Food Manufacturing, Construction, and Sales Industry. 
+                    Since the passing of my father in September 2021, a lot has changed within myself. I decided to pursue Front-End Web Development starting in January 2022. 
+                    I've learned the fundamentals of, HTML5, CSS3, and JavaScript through the free online course “The Odin Project” where its goal is to help aspiring web developers. 
                     I am now spending my time building projects with ReactJs and learning new technologies.
                 </p>
             </div>
