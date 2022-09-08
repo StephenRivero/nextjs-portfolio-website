@@ -16,7 +16,7 @@ const Navbar = () => {
     <div className='fixed w-full h-20 shadow-xl z-[100]'>
         <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
             <Image 
-                src="/../public/assets/navLogo.png" 
+                src="/../public/assets/sr-logo-no-bg.png" 
                 alt="/" 
                 width='125' 
                 height='50' 
@@ -63,7 +63,7 @@ const Navbar = () => {
                 <div>
                     <div className='flex w-full items-center justify-between'>
                         <Image
-                            src='/../public/assets/navLogo.png' 
+                            src='/../public/assets/sr-logo-no-bg.png' 
                             width='87' 
                             height='35' 
                             alt='/' 
@@ -76,7 +76,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='border-b border-gray-300 my-4'>
-                        <p className='w-[85%] md:w-[90%] py-4'>Let's build something legendary together</p>
+                        <p className='w-[85%] md:w-[90%] py-4'>Let's build together</p>
                     </div>
                 </div>
                 <div className='py-4 flex flex-col'>
