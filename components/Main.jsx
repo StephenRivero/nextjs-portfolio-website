@@ -18,20 +18,20 @@ const Main = () => {
                     A Front-End Web Developer
                 </h1>
                 <p className='py-4 text-gray-600 max-w-[100%] m-auto'>
-                    I'm a front-end web developer specializing in transforming exceptional web designs into code.
+                    Specialized in building your exceptional web designs.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <FaLinkedinIn />
+                        <FaLinkedinIn className='text-[#0A66C2]'/>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <FaGithub />
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <AiOutlineMail />
+                        <AiOutlineMail className='text-[red]'/>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
+                        <BsFillPersonLinesFill className='text-[gray]'/>
                     </div>
                 </div>
             </div>

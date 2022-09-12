@@ -17,29 +17,31 @@ const Contact = () => {
             <div className='grid lg:grid-cols-5 gap-8'>
                 {/* left */}
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
-                    <div className='lg:p-4 h-full'>
-                        <div>
-                            <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ContactImg} alt="/" />
-                        </div>
-                        <div className=''>
-                            <h2 className='py-2'>Stephen M. Rivero P.</h2>
-                            <p>Front-End Developer</p>
-                            <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                    <div className='lg:p-4 h-full flex flex-col justify-between'>
+                        <div>    
+                            <div>
+                                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ContactImg} alt="/" />
+                            </div>
+                            <div>
+                                <h2 className='py-2'>Stephen Rivero</h2>
+                                <p>Front-End Web Developer</p>
+                                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
+                            </div>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect with me</p>
-                                <div className='flex items-center justify-between py-4'>
+                                <div className='flex items-center justify-around py-4'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <FaLinkedinIn />
+                                        <FaLinkedinIn className='text-[#0A66C2]'/>
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                                         <FaGithub />
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <AiOutlineMail />
+                                        <AiOutlineMail className='text-[red]'/>
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                                        <BsFillPersonLinesFill />
+                                        <BsFillPersonLinesFill className='text-[gray]'/>
                                     </div>
                                 </div>
                         </div>
