@@ -23,30 +23,30 @@ const Contact = () => {
                                 <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ContactImg} alt="/" />
                             </div>
                             <div>
-                                <h2 className='py-2'>Stephen Rivero</h2>
-                                <p>Front-End Web Developer</p>
+                                <h2 className='py-2 text-[#FF0000]'>Stephen Rivero</h2>
+                                <p className='underline underline-offset-2 tracking-wider'>Front-End Web Developer</p>
                                 <p className='py-4'>I am available for freelance or full-time positions. Contact me and let's talk.</p>
                             </div>
                         </div>
                         <div>
                             <p className='uppercase pt-8'>Connect with me</p>
                                 <div className='flex items-center justify-around py-4'>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='https://www.linkedin.com/in/stephen-pastor/'>
                                             <FaLinkedinIn className='text-[#0A66C2]'/>
                                         </Link>
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='https://github.com/StephenRivero'>
                                             <FaGithub />
                                         </Link>
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <div className='rounded-full shadow-lg shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='/#contact'>
                                             <AiOutlineMail className='text-[red]'/>
                                         </Link>
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <BsFillPersonLinesFill className='text-[gray]'/>
                                     </div>
                                 </div>
@@ -88,7 +88,7 @@ const Contact = () => {
             <div className='flex justify-center py-12'>
                 <Link href='/'>
                     <a>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='rounded-full shadow-lg shadow-red-400 p-4 cursor-pointer hover:scale-110 ease-out duration-200'>
                             <FaAngleDoubleUp 
                                 className='text-[#FF0000]'
                                 size={30} 

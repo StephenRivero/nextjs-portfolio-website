@@ -1,10 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import ProjectItem from './ProjectItem';
-import propertyImg from '../public/assets/projects/property.jpg';
+import youtubeImg from '../public/assets/projects/youtube-clone-project.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
-import netflixImg from '../public/assets/projects/netflix.jpg';
 import twitchImg from '../public/assets/projects/twitch.jpg';
+import propertyImg from '../public/assets/projects/property.jpg'
 
 const Projects = () => {
   return (
@@ -15,7 +15,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem
                     title='YouTube Clone'
-                    backgroundImg={netflixImg}
+                    backgroundImg={youtubeImg}
                     projectUrl='/youtube-clone-project'
                     tech='React JS, Rapid API, MUI 5'
                 />

@@ -9,15 +9,21 @@ import { useRouter } from 'next/router'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    // const [navBg, setNavBg] = useState('#ecf0f3')
-    // const [linkColor, setLinkColor] = useState('#f2937')
-    // const router = useRouter()
+    const [navBg, setNavBg] = useState('#ecf0f3')
+    const [linkColor, setLinkColor] = useState('#f2937')
+    const router = useRouter()
 
-    // useEffect(()=>{
-    //     if {
-    //         router.asPath === '/property'
-    //     }
-    // },[router])
+    useEffect(()=>{
+        if (
+            router.asPath === '/youtube-clone-project' 
+        ) {
+            setNavBg('transparent')
+            setLinkColor('#FFFFFF')
+        } else {
+            setNavBg('#FFFFFF')
+            setLinkColor('#282828')
+        }
+    },[router])
 
     const handleNav = () => {
         setNav(!nav);
@@ -35,29 +41,30 @@ const Navbar = () => {
     },[])
 
     return (
-        <div className={shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#FFFFFF] px-1' : 'fixed w-full h-14 z-[100] bg-[#FFFFFF] px-1'}>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
+    <div className='flex justify-center'>
+        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#FFFFFF] px-1 2xl:px-[5vw]' : 'fixed w-full h-14 z-[100] bg-[#FFFFFF] px-1 2xl:px-[5vw]' }>
+            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-[5vw]'>
                 <Link href='/'>
                     <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
                         stephen
                     </h2>
                 </Link>
                 <div>
-                    <ul className='hidden md:flex'>
+                    <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b border-black cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Home</li>
+                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 text-sm uppercase hover:border-b border-black cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>About</li>
+                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:border-b border-black cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Skills</li>
+                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 text-sm uppercase hover:border-b border-black cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Projects</li>
+                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm uppercase hover:border-b border-black cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Contact</li>
+                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Contact</li>
                         </Link>
                     </ul>
                     <div 
@@ -147,6 +154,7 @@ const Navbar = () => {
                 </div>
             </div>
         </div>
+    </div>    
     )
 }
 
