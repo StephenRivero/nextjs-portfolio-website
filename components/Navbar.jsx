@@ -35,7 +35,7 @@ const Navbar = () => {
     },[])
 
     return (
-        <div className={shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#FFFFFF]' : 'fixed w-full h-14 z-[100] bg-[#FFFFFF]'}>
+        <div className={shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#FFFFFF] px-1' : 'fixed w-full h-14 z-[100] bg-[#FFFFFF] px-1'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
                     <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
