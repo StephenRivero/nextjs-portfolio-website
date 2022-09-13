@@ -35,10 +35,10 @@ const Navbar = () => {
     },[])
 
     return (
-        <div className={shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#ecf0f3]' : 'fixed w-full h-14 z-[100] bg-[#ecf0f3]'}>
+        <div className={shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#FFFFFF]' : 'fixed w-full h-14 z-[100] bg-[#FFFFFF]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                    <h2 className='text-[#5651e5] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
+                    <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
                         stephen
                     </h2>
                 </Link>
@@ -77,14 +77,14 @@ const Navbar = () => {
                 <div 
                     className={
                         nav 
-                            ? 'fixed right-0 top-0 w-[70%] sm:w-[40%] h-screen flex flex-col justify-between bg-[#ecf0f3] p-4 pt-2 ease-in duration-500' 
+                            ? 'fixed right-0 top-0 w-[70%] sm:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500' 
                             : 'fixed right-[-120%] top-0 p-10 ease-in duration-500'
                     }
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <h2 className='text-[#5651e5] uppercase underline underline-offset-2 tracking-wider cursor-pointer'
+                                <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'
                                     onClick={()=> setNav(false)}
                                 > 
                                     stephen
@@ -121,7 +121,7 @@ const Navbar = () => {
                         </div>
                     </div>
                     <div className='pt-10'>
-                        <p className='uppercase tracking-widest text-[#5651e5]'>Let's Connect</p>
+                        <p className='uppercase tracking-widest text-[#FF0000]'>Let's Connect</p>
                         <div className='flex items-center justify-around my-4 w-full'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://www.linkedin.com/in/stephen-pastor/'>
