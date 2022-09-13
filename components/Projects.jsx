@@ -13,6 +13,12 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#FF0000]'>Projects</p>
             <h2 className='py-4'>What I've Built</h2>
             <div className='grid md:grid-cols-2 gap-8'>
+                <ProjectItem
+                    title='YouTube Clone'
+                    backgroundImg={netflixImg}
+                    projectUrl='/youtube-clone-project'
+                    tech='React JS, Rapid API, MUI 5'
+                />
                 <ProjectItem 
                     title='Property Finder' 
                     backgroundImg={propertyImg} 
@@ -23,12 +29,6 @@ const Projects = () => {
                     title='Crypto App'
                     backgroundImg={cryptoImg}
                     projectUrl='/crypto'
-                    tech='React JS'
-                />
-                <ProjectItem
-                    title='Netflix App'
-                    backgroundImg={netflixImg}
-                    projectUrl='/netflix'
                     tech='React JS'
                 />
                 <ProjectItem
