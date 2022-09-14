@@ -35,7 +35,7 @@ const youtubeCloneProject = () => {
               </Link>
             </div>
           </div>
-          <div className='col-span-4 md:col-span-1 shadow-xl shadow-red-400 rounded-xl  p-1 mt-8 md:mt-0 md:mx-4'>
+          <div className='col-span-4 md:col-span-1 shadow-xl shadow-red-400 rounded-xl  p-1 mt-8 mr-2 md:mt-0 md:mx-4'>
             <div className='p-4'>
               <p className='text-center font-bold pb-2'>Technologies</p>
               <div className='grid grid-cols-3 md:grid-cols-1'>
