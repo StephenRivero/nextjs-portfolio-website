@@ -9,8 +9,8 @@ import { useRouter } from 'next/router'
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [shadow, setShadow] = useState(false);
-    const [navBg, setNavBg] = useState('#ecf0f3')
-    const [linkColor, setLinkColor] = useState('#f2937')
+    const [navBg, setNavBg] = useState('#FFFFFF')
+    const [linkColor, setLinkColor] = useState('#282828')
     const router = useRouter()
 
     useEffect(()=>{
@@ -52,19 +52,19 @@ const Navbar = () => {
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Home</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Home</li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>About</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>About</li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Skills</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Skills</li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Projects</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm uppercase hover:border-b divide-current cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Contact</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Contact</li>
                         </Link>
                     </ul>
                     <div 
@@ -130,17 +130,17 @@ const Navbar = () => {
                     <div className='pt-10'>
                         <p className='uppercase tracking-widest text-[#FF0000]'>Let's Connect</p>
                         <div className='flex items-center justify-around my-4 w-full'>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://www.linkedin.com/in/stephen-pastor/'>
                                     <FaLinkedinIn className='text-[#0A66C2]'/>
                                 </Link>
                             </div>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://github.com/StephenRivero'>
                                     <FaGithub />
                                 </Link>
                             </div >
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+                            <div className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='/#contact'>
                                     <AiOutlineMail className='text-[red]'/>
                                 </Link>

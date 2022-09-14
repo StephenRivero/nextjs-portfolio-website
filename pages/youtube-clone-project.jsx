@@ -50,7 +50,7 @@ const youtubeCloneProject = () => {
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
+        <Link href='/#projects' className='max-w-[1240px] pt-8'>
           <p className='underline cursor-pointer'>Back</p>
         </Link>
     </div>

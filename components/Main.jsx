@@ -22,22 +22,22 @@ const Main = () => {
                     Specialized in building your exceptional web designs.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                         <Link href='https://www.linkedin.com/in/stephen-pastor/'>
                             <FaLinkedinIn className='text-[#0A66C2]'/>
                         </Link>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                         <Link href='https://github.com/StephenRivero'>
                             <FaGithub />
                         </Link>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                         <Link href='/#contact'>
                             <AiOutlineMail className='text-[red]'/>
                         </Link>
                     </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                         <BsFillPersonLinesFill className='text-[gray]'/>
                     </div>
                 </div>

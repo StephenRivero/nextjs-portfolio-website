@@ -13,7 +13,7 @@ const About = () => {
                     I have 7 years professional experience as a Licensed Sanitary Engineer in the field of Food Manufacturing, Construction, and Sales Industry. 
                     Since the passing of my father in September 2021, I've never been the same. I've struggled a lot. And then, I decided to pursue Front-End Web Development starting in July 2022. 
                     I've learned the fundamentals of, HTML5, CSS3, and JavaScript through the free online course “The Odin Project” where its goal is to help aspiring web developers. 
-                    I'm now spending my time building projects with ReactJs and learning new technologies.
+                    I'm now spending my time building projects with ReactJs and NextJs and also learning new technologies.
                 </p>
             </div>
             <div className='w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
