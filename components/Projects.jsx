@@ -18,24 +18,28 @@ const Projects = () => {
                     backgroundImg={youtubeImg}
                     projectUrl='/youtube-clone-project'
                     tech='React JS, Rapid API, MUI 5'
+                    status='More Info'
                 />
                 <ProjectItem 
                     title='Property Finder' 
                     backgroundImg={propertyImg} 
                     projectUrl='/property'
-                    tech='React JS' 
+                    tech='React JS'
+                    status='Under Development' 
                 />
                 <ProjectItem
                     title='Crypto App'
                     backgroundImg={cryptoImg}
                     projectUrl='/crypto'
                     tech='React JS'
+                    status='Under Development'
                 />
                 <ProjectItem
                     title='Twitch UI'
                     backgroundImg={twitchImg}
                     projectUrl='/twitch'
                     tech='Next JS'
+                    status='Under Development'
                 />
             </div>
         </div>
