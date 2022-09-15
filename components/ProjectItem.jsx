@@ -10,7 +10,7 @@ const ProjectItem = ({title, backgroundImg, projectUrl, tech, status}) => {
             <h3 className='text-2xl text-white tracking-wider text-center '>{title}</h3>
             <p className='pb-4 pt-2 text-white text-center'>{tech}</p>
             <Link href={projectUrl}>
-                <p className='w-[70%] lg:w-[40%] mx-auto text-center py-2 px-2 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>{status}</p>
+                <p className='w-[65%] sm:w-[55%] lg:w-[40%] mx-auto text-center py-2 px-2 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer'>{status}</p>
             </Link>
         </div>
     </div>
