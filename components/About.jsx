@@ -4,7 +4,7 @@ import Image from 'next/image'
 const About = () => {
   return (
     <div id='about' className='w-full p-2 flex items-center py-16 box-border'>
-        <div className='max-w-[1240px] m-auto md:grid grid-cols-2 gap-4 relative'>
+        <div className='max-w-[1240px] w-[95%] m-auto lg:grid grid-cols-2 gap-8 relative'>
             <div className='col-span-1'>
                 <p className='px-1 uppercase text-xl tracking-widest text-[#FF0000]'>About</p>
                 <h2 className='py-4 px-1'>Who I Am</h2>
@@ -16,7 +16,7 @@ const About = () => {
                     I'm now spending my time building projects with ReactJs and NextJs and also learning new technologies.
                 </p>
             </div>
-            <div className='w-[95%] md:w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <div className='w-[100%] sm:w-full lg:mb-4 xl:mb-0 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image 
                     className='rounded-xl'
                     src="/../public/assets/wallpaper-toledo-cebu-solar.jpg" 
