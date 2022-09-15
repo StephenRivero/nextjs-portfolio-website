@@ -82,7 +82,7 @@ const Contact = () => {
                                 <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
                             </div>
                             <div className='flex justify-center items-center'>
-                                <button className='w-[150px] sm:w-[30%] p-4 text-gray-100 '>Send Message</button>
+                                <button className='w-[150px] sm:w-[30%] p-4 text-gray-100 mt-3 mb-1 lg:mb-0 lg:mt-4'>Send Message</button>
                             </div>
                         </form>
                     </div>
