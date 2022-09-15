@@ -9,7 +9,7 @@ const Skills = () => {
             <p className='text-xl tracking-widest uppercase text-[#FF0000]'>Skills</p>
             <h2 className='py-4'>What I Can Do</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-orange-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -24,7 +24,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -39,7 +39,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-yellow-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -54,7 +54,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-cyan-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -69,7 +69,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -84,7 +84,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-teal-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -99,7 +99,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl shadow-orange-500 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
@@ -114,7 +114,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+                <div className='p-6 shadow-xl  shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
                             <Image 
