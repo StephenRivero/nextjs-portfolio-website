@@ -25,7 +25,7 @@ const Contact = () => {
                             <div>
                                 <h2 className='py-2 text-[#FF0000]'>Stephen Rivero</h2>
                                 <p className='underline underline-offset-2 tracking-wider'>Front-End Web Developer</p>
-                                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let\'s talk.</p>
+                                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
                                 <p className='py-4 flex items-center'><AiOutlineMail className='text-[red] mr-2 mt-[2.7px]'/> stephen.m.rivero@gmail.com</p>
                             </div>
                         </div>
