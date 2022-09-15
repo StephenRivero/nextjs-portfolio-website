@@ -18,7 +18,7 @@ const Footer = () => {
                 <Image src={nextjsIcon} width='32px' height='32px' /><p className='text-[#FFFFFF]'>_</p>NextJs and<p className='text-[#FFFFFF]'>_</p>
             </h3>
             <h3 className='flex text-center items-end justify-center'>
-                <Image src={tailwindIcon} width='32px' height='32px' /><p className='text-[#FFFFFF]'>_</p>Tailwind with help from<p className='text-[#FFFFFF]'>_</p><Image src={coffeeCupIcon} width='32px' height='32px' />
+                <Image src={tailwindIcon} width='24px' height='24px' /><p className='text-[#FFFFFF]'>_</p>Tailwind with help from<p className='text-[#FFFFFF]'>_</p><Image src={coffeeCupIcon} width='32px' height='32px' />
             </h3>
         </div>
         <div className='flex max-w-[1240px] mx-auto justify-center py-2'>
