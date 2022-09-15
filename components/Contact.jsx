@@ -58,28 +58,28 @@ const Contact = () => {
                 {/* right */}
                 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
-                        <form>
+                        <form action="https://formspree.io/f/xknejoly" method="POST">
                             <div className='grid md:grid-cols-2 gap-4  w-full py-2'>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Name</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Name" type="text" />
                                 </div>
                                 <div className='flex flex-col'>
                                     <label className='uppercase text-sm py-2'>Contact Number</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Contact Number" type="text" />
                                 </div>
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="email" />
+                                <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Email" type="email" />
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Subject</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' type="text" />
+                                <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Subject" type="text" />
                             </div>
                             <div className='flex flex-col py-2'>
                                 <label className='uppercase text-sm py-2'>Message</label>
-                                <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
+                                <textarea className='border-2 rounded-lg p-3 border-gray-300'  name="Message"  rows='10'></textarea>
                             </div>
                             <div className='flex justify-center items-center'>
                                 <button className='w-[150px] sm:w-[30%] p-4 text-gray-100 mt-3 mb-1 lg:mb-0 lg:mt-4'>Send Message</button>
