@@ -17,12 +17,14 @@ const Navbar = () => {
         if (
             router.asPath === '/youtube-clone-project' 
         ) {
-            setNavBg('transparent')
+            setNavBg('black')
             setLinkColor('#FFFFFF')
+        
         } else {
             setNavBg('#FFFFFF')
             setLinkColor('#282828')
         }
+        
     },[router])
 
     const handleNav = () => {
@@ -42,8 +44,8 @@ const Navbar = () => {
 
     return (
     <div className='flex justify-center'>
-        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? 'fixed w-full h-14 shadow-xl z-[100] bg-[#FFFFFF] px-1 2xl:px-[5vw]' : 'fixed w-full h-14 z-[100] bg-[#FFFFFF] px-1 2xl:px-[5vw]' }>
-            <div className='flex justify-between items-center w-full h-full px-2 2xl:px-[5vw]'>
+        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-14 shadow-xl z-[100] px-1 2xl:px-[5vw] ` : `fixed w-full h-14 z-[100] px-1 2xl:px-[5vw] ` }>
+            <div className={`flex justify-between items-center w-full h-full px-2 2xl:px-[5vw] `}>
                 <Link href='/'>
                     <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
                         stephen
@@ -68,6 +70,7 @@ const Navbar = () => {
                         </Link>
                     </ul>
                     <div 
+                        style={{color: `${linkColor}`}}
                         onClick={handleNav} 
                         className='md:hidden'
                     >
@@ -99,7 +102,7 @@ const Navbar = () => {
                             </Link>
                             <div 
                                 onClick={handleNav} 
-                                className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer'
+                                className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer mr-[-10px] text-[#FF0000]'
                             >
                                 <AiOutlineClose />
                             </div>
