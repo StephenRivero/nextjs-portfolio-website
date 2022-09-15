@@ -8,11 +8,11 @@ import { RiRadioButtonFill } from 'react-icons/ri'
 const youtubeCloneProject = () => {
   return (
     <div className='w-full'>
-        <div className='w-screen h-[30vh] lg:h-[40vh] relative'>
-            <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
+        <div className='w-screen h-[50vw] lg:h-[25vw] relative'>
+            <div className='absolute top-0 left-0 w-full h-[50vw] lg:h-[25vw] bg-black/80 z-10' />
               <Image className='absolute z-1' layout='fill' objectFit='cover' src={youtubeImg} alt="/" />
-            <div className='absolute top-[70%] max-w-[1240px] pl-4 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 px-2'>
-              <h2 className='pb-2'>YouTube Clone Project</h2>
+            <div className='absolute top-[80%] sm:top-[88%] lg:top-[85%] xl:top-[88%] max-w-[1240px] pl-4 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 px-2'>
+              <h2 className='pb-2'>YouTube Clone</h2>
               <h3>ReactJs / Rapid API / MUI 5</h3>
             </div>
         </div>
