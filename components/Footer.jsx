@@ -9,13 +9,19 @@ import coffeeCupIcon from '../public/assets/coffee-cup-icon.png'
 const Footer = () => {
   return (
     <div className='w-full'>
-        <div className='flex flex-col max-w-[1240px] mx-auto justify-center py-2'>
+        <div className='flex flex-col sm:flex-row max-w-[1240px] mx-auto justify-center py-2'>
             <h3 className='flex text-center items-center justify-center'>
-                Built using<p className='text-[#FFFFFF]'>_</p><Image src={reactIcon} width='32px' height='32px' />ReactJs,<p className='text-[#FFFFFF]'>_</p>  
-                <Image src={nextjsIcon} width='32px' height='32px' /><p className='text-[#FFFFFF]'>_</p>NextJs and<p className='text-[#FFFFFF]'>_</p>
-                <Image src={tailwindIcon} width='32px' height='32px' /><p className='text-[#FFFFFF]'>_</p>Tailwind with help from<p className='text-[#FFFFFF]'>_</p>
-                <Image src={coffeeCupIcon} width='32px' height='32px' className='flex self-start' /> 
+                Built using<p className='text-[#FFFFFF]'>_</p><Image src={reactIcon} width='32px' height='32px' />ReactJs,
             </h3>
+            <h3 className='flex text-center items-center justify-center'>
+                <p className='text-[#FFFFFF]'>_</p>  
+                <Image src={nextjsIcon} width='32px' height='32px' /><p className='text-[#FFFFFF]'>_</p>NextJs and<p className='text-[#FFFFFF]'>_</p>
+            </h3>
+            <h3 className='flex text-center items-center justify-center'>
+                <Image src={tailwindIcon} width='32px' height='32px' /><p className='text-[#FFFFFF]'>_</p>Tailwind with help from<p className='text-[#FFFFFF]'>_</p><Image src={coffeeCupIcon} width='32px' height='32px' className='flex self-start' />
+            </h3>
+        </div>
+        <div className='flex max-w-[1240px] mx-auto justify-center py-2'>
             <h3 className='flex text-center items-center justify-center mt-2'>
                 Copyright © Stephen Rivero 2022
             </h3>
