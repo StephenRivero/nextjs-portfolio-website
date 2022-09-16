@@ -30,7 +30,7 @@ const Contact = () => {
                             </div>
                         </div>
                         <div>
-                            <p className='uppercase pt-8'>Connect with me</p>
+                            <p className='uppercase tracking-widest text-[#FF0000]'>Let&apos;s Connect</p>
                                 <div className='flex items-center justify-around py-4'>
                                     <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='https://www.linkedin.com/in/stephen-pastor/'>
