@@ -9,18 +9,18 @@ import Link from 'next/link'
 const Contact = () => {
   return (
     <div id='contact' className='w-full'>
-        <div className='max-w-[1240px] m-auto px-2 pt-16 w-full'>
-            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-5'>
+        <div className='max-w-[1240px] w-[95%] lg:w-full m-auto px-2 pt-16'>
+            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-3 lg:pl-5'>
                 Contact
             </p>
-            <h2 className='py-4 pl-5'>Get In Touch</h2>
-            <div className='grid lg:grid-cols-5 gap-8'>
-                {/* left */}
-                <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
+            <h2 className='py-4 pl-3 lg:pl-5'>Get In Touch</h2>
+            {/* left */}
+            <div className='grid lg:grid-cols-5 gap-8 justify-center'>
+                <div className='col-span-3 md:col-span-5 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full flex flex-col justify-between'>
                         <div>    
-                            <div>
-                                <Image className='rounded-xl hover:scale-105 ease-in duration-300' src={ContactImg} alt="/" />
+                            <div className='flex justify-center w-full'>
+                                <Image className='rounded-xl hover:scale-105 ease-in duration-300 w-full ' src={ContactImg} alt="/" width="1024px"  height="576px" />
                             </div>
                             <div>
                                 <h2 className='py-2 text-[#FF0000]'>Stephen Rivero</h2>
@@ -56,7 +56,7 @@ const Contact = () => {
                 </div>
 
                 {/* right */}
-                <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                <div className='col-span-3 md:col-span-5 lg:col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
                         <form action="https://formspree.io/f/xknejoly" method="POST">
                             <div className='grid md:grid-cols-2 gap-4  w-full py-2'>
