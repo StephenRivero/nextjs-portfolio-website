@@ -19,7 +19,7 @@ const About = () => {
             <div className='w-[100%] sm:w-full lg:mb-4 xl:mb-0 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image 
                     className='rounded-xl'
-                    src="/../public/assets/wallpaper-toledo-cebu-solar.jpg" 
+                    src="/assets/wallpaper-toledo-cebu-solar.jpg" 
                     alt="An image of me with solar panels at the background"
                     width="800px" 
                     height="450px"
