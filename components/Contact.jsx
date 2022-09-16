@@ -29,7 +29,7 @@ const Contact = () => {
                                 <p className='py-4 flex items-center'><AiOutlineMail className='text-[red] mr-2 mt-[2.7px]'/> stephen.m.rivero@gmail.com</p>
                             </div>
                         </div>
-                        <div>
+                        <div className='mt-4'>
                             <p className='uppercase tracking-widest text-[#FF0000]'>Let&apos;s Connect</p>
                                 <div className='flex items-center justify-around py-4'>
                                     <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
