@@ -32,23 +32,25 @@ const Contact = () => {
                         <div className='mt-4'>
                             <p className='uppercase tracking-widest text-[#FF0000]'>Let&apos;s Connect</p>
                                 <div className='flex items-center justify-around py-4'>
-                                    <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                    <div className='rounded-full shadow-lg shadow-blue-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='https://www.linkedin.com/in/stephen-pastor/'>
                                             <FaLinkedinIn className='text-[#0A66C2]'/>
                                         </Link>
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-600 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                    <div className='rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='https://github.com/StephenRivero'>
                                             <FaGithub />
                                         </Link>
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                    <div className='rounded-full shadow-lg shadow-red-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
                                         <Link href='/#contact'>
                                             <AiOutlineMail className='text-[red]'/>
                                         </Link>
                                     </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
-                                        <BsFillPersonLinesFill className='text-[gray]'/>
+                                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                        <Link href='https://drive.google.com/file/d/1ihD1pyKxorwYtXL_vASKJAXybFxYQlzS/view?usp=sharing'>
+                                            <BsFillPersonLinesFill className='text-[gray]'/>
+                                        </Link>
                                     </div>
                                 </div>
                         </div>

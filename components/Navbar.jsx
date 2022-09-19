@@ -149,7 +149,9 @@ const Navbar = () => {
                                 </Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <BsFillPersonLinesFill className='text-[gray]'/>
+                                <Link href='https://drive.google.com/file/d/1ihD1pyKxorwYtXL_vASKJAXybFxYQlzS/view?usp=sharing'>
+                                    <BsFillPersonLinesFill className='text-[gray]'/>
+                                </Link>
                             </div>
                         </div>
                     </div>

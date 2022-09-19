@@ -38,7 +38,9 @@ const Main = () => {
                         </Link>
                     </div>
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
-                        <BsFillPersonLinesFill className='text-[gray]'/>
+                        <Link href='https://drive.google.com/file/d/1ihD1pyKxorwYtXL_vASKJAXybFxYQlzS/view?usp=sharing'>
+                            <BsFillPersonLinesFill className='text-[gray]'/>
+                        </Link>
                     </div>
                 </div>
             </div>
