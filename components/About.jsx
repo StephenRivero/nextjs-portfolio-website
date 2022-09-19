@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div id='about' className='w-full lg:h-screen p-2 flex items-center py-16 box-border'>
+    <div id='about' className='w-full sm:h-screen p-2 flex items-center pb-24 pt-36'>
         <div className='max-w-[1240px] w-[95%] m-auto lg:grid grid-cols-2 gap-8 relative'>
             <div className='col-span-1'>
                 <p className='px-1 uppercase text-xl tracking-widest text-[#FF0000]'>About</p>

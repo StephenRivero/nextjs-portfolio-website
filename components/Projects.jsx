@@ -8,7 +8,7 @@ import propertyImg from '../public/assets/projects/property.jpg'
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full'>
+    <div id='projects' className='w-full sm:h-screen'>
         <div className='max-w-[1240px] mx-auto px-2 py-16'>
             <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-5'>Projects</p>
             <h2 className='py-4 pl-5'>What I&apos;ve Built</h2>
