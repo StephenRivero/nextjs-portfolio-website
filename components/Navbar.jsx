@@ -47,26 +47,43 @@ const Navbar = () => {
         <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-14 shadow-xl z-[100] px-1 2xl:px-[5vw] ` : `fixed w-full h-14 z-[100] px-1 2xl:px-[5vw] ` }>
             <div className={`flex justify-between items-center w-full h-full px-2 2xl:px-[5vw] `}>
                 <Link href='/'>
-                    <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
+                    {/* <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
                         stephen
-                    </h2>
+                    </h2> */}
+                    <Image 
+                        className="rounded-full xl:hover:cursor-pointer"
+                        src="/assets/logo-2-midjourney.png"
+                        alt="Website Logo"
+                        width="45px"
+                        height="45px"
+                    />
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Home</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
+                                Home
+                            </li>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>About</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
+                                About
+                            </li>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Skills</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
+                                Skills
+                            </li>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Projects</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
+                                Projects
+                            </li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>Contact</li>
+                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
+                                Contact
+                            </li>
                         </Link>
                     </ul>
                     <div 
@@ -113,25 +130,37 @@ const Navbar = () => {
                         <div className='py-4 flex flex-col'>
                             <ul className='uppercase'>
                                 <Link href='/'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>Home</li>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                        Home
+                                    </li>
                                 </Link>
                                 <Link href='/#about'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>About</li>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                        About
+                                    </li>
                                 </Link>
                                 <Link href='/#skills'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>Skills</li>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                        Skills
+                                    </li>
                                 </Link>
                                 <Link href='/#projects'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>Projects</li>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                        Projects
+                                    </li>
                                 </Link>
                                 <Link href='/#contact'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>Contact</li>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                        Contact
+                                    </li>
                                 </Link>
                             </ul>
                         </div>
                     </div>
                     <div className='pt-10'>
-                        <p className='uppercase tracking-widest text-[#FF0000]'>Let&apos;s Connect</p>
+                        <p className='uppercase tracking-widest text-[#FF0000]'>
+                            Let&apos;s Connect
+                        </p>
                         <div className='flex items-center justify-around my-4 w-full'>
                             <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://www.linkedin.com/in/stephen-pastor/'>
