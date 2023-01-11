@@ -33,7 +33,7 @@ const Navbar = () => {
 
     useEffect(()=> {
         const handleShadow = () => {
-            if (window.scrollY >= 50) {
+            if (window.scrollY >= 10) {
                 setShadow(true)
             }   else {
                 setShadow(false)
@@ -44,8 +44,8 @@ const Navbar = () => {
 
     return (
     <div className='flex justify-center mx-auto'>
-        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100] py-1 sm:px-5` : `fixed w-full h-fit z-[100] py-1 sm:px-5` }>
-            <div className={`flex justify-between items-center w-full h-full max-w-7xl py-2 px-4 sm:px-5 mx-auto`}>
+        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100] py-1 xl:px-5` : `fixed w-full h-fit z-[100] py-1 xl:px-5` }>
+            <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 lg:py-2 px-4 xl:px-5 mx-auto`}>
                 <Link href='/'>
                     {/* <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
                         stephen
@@ -111,15 +111,23 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'
+                                {/* <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'
                                     onClick={()=> setNav(false)}
                                 > 
                                     stephen
-                                </h2>
+                                </h2> */}
+                                <Image 
+                                    className="rounded-full xl:hover:cursor-pointer"
+                                    src="/assets/logo-2-midjourney.png"
+                                    alt="Website Logo"
+                                    width="45px"
+                                    height="45px"
+                                    onClick={()=> setNav(false)}
+                                />
                             </Link>
                             <div 
                                 onClick={handleNav} 
-                                className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer mr-[-10px] text-[#FF0000]'
+                                className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer mr-[-8px] text-[#FF0000]'
                             >
                                 <AiOutlineClose />
                             </div>
