@@ -9,9 +9,13 @@ import propertyImg from '../public/assets/projects/property.jpg'
 const Projects = () => {
   return (
     <div id='projects' className='w-full sm:h-screen lg:h-auto'>
-        <div className='max-w-[1240px] mx-auto px-2 py-16 xl:pb-0 md:pt-32 lg:pt-16'>
-            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-5'>Projects</p>
-            <h2 className='py-4 pl-5'>What I&apos;ve Built</h2>
+        <div className='max-w-[1240px] mx-auto px-2 py-14 xl:pb-0 md:pt-32 lg:pt-16'>
+            <p className='text-xl tracking-widest uppercase text-[#FF0000] pt-5 pl-5'>
+                Projects
+                </p>
+            <h2 className='py-4 pl-5'>
+                What I&apos;ve Built
+            </h2>
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem
                     title='YouTube Clone'
