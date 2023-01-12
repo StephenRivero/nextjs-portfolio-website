@@ -44,8 +44,8 @@ const Navbar = () => {
 
     return (
     <div className='flex justify-center mx-auto'>
-        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100] py-1 xl:px-5` : `fixed w-full h-fit z-[100] py-1 xl:px-5` }>
-            <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 lg:py-2 px-4 xl:px-5 mx-auto`}>
+        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100]  xl:px-5` : `fixed w-full h-fit z-[100]  xl:px-5` }>
+            <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
                 <Link href='/'>
                     {/* <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
                         stephen
