@@ -169,8 +169,8 @@ const Skills = () => {
                             <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" alt="Bitbucket logo" viewBox="0 0 62.42 62.42">
                                 <defs>
                                     <linearGradient id="New_Gradient_Swatch_1" x1="64.01" y1="30.27" x2="32.99" y2="54.48" gradientUnits="userSpaceOnUse">
-                                        <stop offset="0.18" stop-color="#0052cc"/>
-                                        <stop offset="1" stop-color="#2684ff"/>
+                                        <stop offset="0.18" stopColor="#0052cc"/>
+                                        <stop offset="1" stopColor="#2684ff"/>
                                     </linearGradient>
                                 </defs>
                                 <title>Bitbucket-blue</title>
