@@ -133,7 +133,9 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='border-b border-gray-300 my-4 mt-0'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Let&apos;s build together</p>
+                            <p className='w-[85%] md:w-[90%] py-4'>
+                                Let&apos;s build together
+                            </p>
                         </div>
                         <div className='py-4 flex flex-col'>
                             <ul className='uppercase'>
@@ -186,7 +188,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <Link href='https://drive.google.com/file/d/1ihD1pyKxorwYtXL_vASKJAXybFxYQlzS/view?usp=sharing'>
+                                <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
                                     <BsFillPersonLinesFill className='text-[gray]'/>
                                 </Link>
                             </div>
