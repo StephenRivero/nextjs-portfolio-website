@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <div id='about' className='w-full sm:h-screen p-2 pt-16 pb-36 flex items-center sm:pb-24 sm:pt-24 md:pt-16 xl:py-0'>
-        <div className='max-w-[1240px] w-[95%] m-auto lg:grid grid-cols-2 gap-8 relative'>
+    <div id='about' className='w-full lg:h-screen p-2 pt-16 pb-36 flex items-center sm:pb-24 sm:pt-24 md:pt-16 xl:py-0'>
+        <div className='max-w-[1240px] w-[95%] m-auto xl:grid grid-cols-2 gap-8 relative items-center justify-center'>
             <div className='col-span-1'>
                 <p className='px-1 uppercase text-xl tracking-widest text-[#FF0000]'>
                     About
@@ -28,7 +28,7 @@ const About = () => {
                     I&apos;m now spending my free time building projects with ReactJs and NextJs and also learning new technologies.
                 </p>
             </div>
-            <div className='w-[100%] sm:w-full lg:mb-4 xl:mb-0 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+            <div className='w-fit sm:mt-5 xl:mt-auto lg:mb-2 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
                 <Image 
                     className='rounded-xl'
                     src="/assets/wallpaper-toledo-cebu-solar.jpg" 
