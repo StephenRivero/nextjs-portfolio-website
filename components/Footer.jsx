@@ -21,7 +21,7 @@ const Footer = () => {
             </h3>
             <h3 className='flex text-center items-end justify-center gap-1 mx-1'>
                 <Image src={tailwindIcon} alt="An icon of Tailwind" width='24px' height='24px' className='px-1'/>
-                Tailwind with help from
+                Tailwind Css with help from
                 <Image src={coffeeCupIcon} alt="An icon of a coffee cup" width='32px' height='32px' className='px-1'/>
                 .
             </h3>

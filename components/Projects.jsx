@@ -3,7 +3,6 @@ import Image from 'next/image';
 import ProjectItem from './ProjectItem';
 import youtubeImg from '../public/assets/projects/youtube-clone-project.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
-import twitchImg from '../public/assets/projects/twitch.jpg';
 import propertyImg from '../public/assets/projects/property.jpg'
 import metaversusImg from '../public/assets/projects/metaverse-web-app.png'
 
@@ -21,7 +20,7 @@ const Projects = () => {
                 <ProjectItem 
                     title='Metaversus' 
                     backgroundImg={metaversusImg} 
-                    projectUrl='/property'
+                    projectUrl='/metaversus'
                     tech='Tailwind Css, Framer Motion, React JS, & NextJs-13'
                     status='More Info' 
                 />
