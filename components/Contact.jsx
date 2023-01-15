@@ -48,7 +48,7 @@ const Contact = () => {
                                         </Link>
                                     </div>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
-                                        <Link href='https://drive.google.com/file/d/1ihD1pyKxorwYtXL_vASKJAXybFxYQlzS/view?usp=sharing'>
+                                        <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
                                             <BsFillPersonLinesFill className='text-[gray]'/>
                                         </Link>
                                     </div>
@@ -63,28 +63,40 @@ const Contact = () => {
                         <form action="https://formspree.io/f/xknejoly" method="POST">
                             <div className='grid md:grid-cols-2 gap-4  w-full py-2'>
                                 <div className='flex flex-col'>
-                                    <label className='uppercase text-sm py-2'>Name</label>
-                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Name" type="text" />
+                                    <label className='uppercase text-sm py-2'>
+                                        Name
+                                    </label>
+                                    <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Name" type="text" required/>
                                 </div>
                                 <div className='flex flex-col'>
-                                    <label className='uppercase text-sm py-2'>Contact Number</label>
+                                    <label className='uppercase text-sm py-2'>
+                                        Contact Number
+                                    </label>
                                     <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Contact Number" type="text" />
                                 </div>
                             </div>
                             <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Email</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Email" type="email" />
+                                <label className='uppercase text-sm py-2'>
+                                    Email
+                                </label>
+                                <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Email" type="email" required/>
                             </div>
                             <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Subject</label>
-                                <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Subject" type="text" />
+                                <label className='uppercase text-sm py-2'>
+                                    Subject
+                                </label>
+                                <input className='border-2 rounded-lg p-3 flex border-gray-300' name="Subject" type="text" required/>
                             </div>
                             <div className='flex flex-col py-2'>
-                                <label className='uppercase text-sm py-2'>Message</label>
+                                <label className='uppercase text-sm py-2'>
+                                    Message
+                                </label>
                                 <textarea className='border-2 rounded-lg p-3 border-gray-300'  name="Message"  rows='10'></textarea>
                             </div>
                             <div className='flex justify-center items-center'>
-                                <button className='w-[150px] sm:w-[30%] p-4 text-gray-100 mt-3 mb-1 lg:mb-0 lg:mt-4'>Send Message</button>
+                                <button className='w-[150px] sm:w-[30%] p-4 text-gray-100 mt-3 mb-1 lg:mb-0 lg:mt-4'>
+                                    Send Message
+                                </button>
                             </div>
                         </form>
                     </div>
