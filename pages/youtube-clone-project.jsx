@@ -7,7 +7,7 @@ import { RiRadioButtonFill } from 'react-icons/ri'
 
 const youtubeCloneProject = () => {
   return (
-    <div className='w-full'>
+    <div className='w-full overflow-x-hidden mx-auto'>
         <div className='w-screen h-[50vw] lg:h-[25vw] relative'>
             <div className='absolute top-0 left-0 w-full h-[50vw] lg:h-[25vw] bg-black/80 z-10' />
               <Image className='absolute z-1' layout='fill' objectFit='cover' src={youtubeImg} alt="/" />
@@ -54,7 +54,7 @@ const youtubeCloneProject = () => {
               </p>
               <div className='grid grid-cols-3 md:grid-cols-1'>
                 <p className='text-gray-600 py-2 flex items-center text-left'>
-                  <RiRadioButtonFill className='pr-1' /> ReactJs  
+                  <RiRadioButtonFill className='pr-1' /> React.js  
                 </p>
                 <p className='text-gray-600 py-2 pl-2 sm:pl-0 flex items-center text-left'>
                   <RiRadioButtonFill className='pr-1' /> Rapid API
