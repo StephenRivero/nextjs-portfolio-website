@@ -30,7 +30,7 @@ const youtubeCloneProject = () => {
           </h2>
           <p className='text-justify pr-4 mt-2'>
             This web app is a mock Metaverse website called <b>“Metaversus”</b>. It is built using <b>Tailwind Css, Framer Motion, React.js, and Next.js-13</b>.
-            <b> Tailwind CSS</b> is a "utility-first CSS framework" which provides several single-purpose utility classes that you can use directly inside your markup to design an element.
+            <b> Tailwind CSS</b> is a &quot;utility-first CSS framework&quot; which provides several single-purpose utility classes that you can use directly inside your markup to design an element.
             <b> Framer Motion</b> is a production-ready motion library for React from Framer. It&apos;s simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.
             <b> Next.js</b> is like React with benefits, in that it delivers all the features of React with ease-of-use conventions and a well-defined client-server stack. <b> Next.js-13</b> is the newest version, released by Vercel at the Next.js conference in October 2022. It brings a slew of new features, including a bundler called Turbopack and support for several React-incubated optimizations like React Server Components and streaming rendering.
           </p>
