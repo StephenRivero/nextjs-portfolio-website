@@ -15,11 +15,15 @@ const Navbar = () => {
 
     useEffect(()=>{
         if (
-            router.asPath === '/youtube-clone-project' 
+            router.asPath === '/youtube-clone-project'
         ) {
             setNavBg('black')
             setLinkColor('#FFFFFF')
-        
+        } else if (
+            router.asPath === '/metaversus'
+        ) {
+            setNavBg('black')
+            setLinkColor('#FFFFFF')
         } else {
             setNavBg('#FFFFFF')
             setLinkColor('#282828')
