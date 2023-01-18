@@ -36,12 +36,12 @@ const youtubeCloneProject = () => {
             </p>
             <div className='flex flex-nowrap justify-center sm:justify-start mt-4'>
               <Link href="https://stephenrivero.github.io/youtube-clone-project/" className='flex justify-center'>
-                <button className='px-8 py-2 mr-4'>
+                <button className='px-8 py-2 mr-4 xl:hover:scale-105 cursor-pointer'>
                   Demo
                 </button>
               </Link>
               <Link href="https://github.com/StephenRivero/youtube-clone-project">
-                <button className='px-8 py-2 '>
+                <button className='px-8 py-2 xl:hover:scale-105 cursor-pointer'>
                   Code
                 </button>
               </Link>

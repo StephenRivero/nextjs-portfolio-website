@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import ContactImg from '../public/assets/contact.jpg';
+import ContactImg from '../public/assets/Stephen Pastor ID Picture.jpg';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaAngleDoubleUp, FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -20,7 +20,9 @@ const Contact = () => {
                     <div className='lg:p-4 h-full flex flex-col justify-between'>
                         <div>    
                             <div className='flex justify-center w-full'>
-                                <Image className='rounded-xl hover:scale-105 ease-in duration-300 w-full ' src={ContactImg} alt="/" width="1024px"  height="576px" />
+                                <Image 
+                                    className='rounded-xl hover:scale-105 ease-in duration-300 w-full ' 
+                                    src={ContactImg} alt="Profile picture" width="300px"  height="300px" />
                             </div>
                             <div>
                                 <h2 className='py-2 text-[#FF0000]'>Stephen Rivero</h2>

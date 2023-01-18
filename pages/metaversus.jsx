@@ -34,14 +34,14 @@ const youtubeCloneProject = () => {
             <b> Framer Motion</b> is a production-ready motion library for React from Framer. It&apos;s simple yet powerful, allowing you to express complex user interactions with robust, semantic markup.
             <b> Next.js</b> is like React with benefits, in that it delivers all the features of React with ease-of-use conventions and a well-defined client-server stack. <b> Next.js-13</b> is the newest version, released by Vercel at the Next.js conference in October 2022. It brings a slew of new features, including a bundler called Turbopack and support for several React-incubated optimizations like React Server Components and streaming rendering.
           </p>
-          <div className='flex flex-nowrap w-fit mx-auto justify-center sm:justify-start md:justify-center mt-4 md:mt-8 lg:mb-6 xl:mb-7'>
+          <div className='flex flex-nowrap w-fit mx-auto justify-center sm:justify-start md:justify-center mt-4 md:mt-8 lg:mb-6 xl:mb-7 z-10'>
             <Link href="https://metaversus-stephenrivero.vercel.app/" className='flex justify-center'>
-              <button className='px-8 py-2 mr-4'>
+              <button className='px-8 py-2 mr-4 xl:hover:scale-105 cursor-pointer'>
                 Demo
               </button>
             </Link>
             <Link href="https://github.com/StephenRivero/metaverse-website">
-              <button className='px-8 py-2 '>
+              <button className='px-8 py-2 xl:hover:scale-105 cursor-pointer'>
                 Code
               </button>
             </Link>
@@ -69,10 +69,10 @@ const youtubeCloneProject = () => {
             </div>
         </div>
       </div>
-      <div className='absolute top-0 left-0 w-full h-full flex items-end justify-center'>
+      <div className='absolute bottom-0 left-0 w-full h-[50px] flex items-end justify-center '>
         <div className='w-full max-w-[1240px] flex justify-start'>
-          <Link href='/#projects'>
-            <p className='underline underline-offset-4 cursor-pointer w-fit justify-start mr-auto mt-auto xl:pt-1 lg:absolute bottom-4 left-4 xl:static xl:mt-auto xl:mb-5 xl:ml-4'>
+          <Link href='/#projects' className=''>
+            <p className='underline underline-offset-4 cursor-pointer w-fit justify-start mr-auto mt-auto xl:pt-1 lg:absolute bottom-4 left-4 xl:static xl:mt-auto xl:mb-5 xl:ml-4 xl:hover:cursor-pointer'>
               Back
             </p>
           </Link>
