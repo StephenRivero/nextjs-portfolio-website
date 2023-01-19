@@ -7,8 +7,8 @@ import { RiRadioButtonFill } from 'react-icons/ri'
 
 const youtubeCloneProject = () => {
   return (
-    <div className='w-full xl:h-[100vh] overflow-x-hidden mx-auto'>
-      <div className='w-screen h-[60vw] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] relative'>
+    <div className='w-full xl:h-[100vh] overflow-x-hidden'>
+      <div className='w-full h-[60vw] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] relative'>
         <div className='absolute top-0 left-0 w-full h-[60vw] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] bg-black/80 z-10' />
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={metaversusImg} alt="/" />
         <div className='absolute top-[75%] sm:top-[88%] md:top-[89%] lg:top-[79%] xl:top-[85%] max-w-[1240px] pl-4 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 px-2'>
@@ -70,7 +70,7 @@ const youtubeCloneProject = () => {
         </div>
       </div>
       <div className='w-full max-w-[1240px] flex justify-start mx-auto'>
-        <Link href='/#projects' className=''>
+        <Link href='/#projects'>
           <p className='underline underline-offset-4 cursor-pointer w-fit justify-start mr-auto mt-auto xl:pt-1 xl:static xl:mt-auto mb-4 xl:mb-5 ml-4 xl:hover:cursor-pointer'>
             Back
           </p>
