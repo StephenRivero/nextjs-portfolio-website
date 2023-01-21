@@ -21,7 +21,7 @@ const Contact = () => {
                         <div>    
                             <div className='flex justify-center w-full'>
                                 <Image 
-                                    className='rounded-xl hover:scale-105 ease-in duration-300 w-full ' 
+                                    className='rounded-xl hover:scale-105 ease-in duration-300 w-full' 
                                     src={ContactImg} alt="Profile picture" width="300px"  height="300px" />
                             </div>
                             <div>
@@ -34,26 +34,32 @@ const Contact = () => {
                         <div className='mt-4'>
                             <p className='uppercase tracking-widest text-[#FF0000]'>Let&apos;s Connect</p>
                                 <div className='flex items-center justify-around py-4'>
-                                    <div className='rounded-full shadow-lg shadow-blue-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
-                                        <Link href='https://www.linkedin.com/in/stephen-pastor/'>
-                                            <FaLinkedinIn className='text-[#0A66C2]'/>
-                                        </Link>
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
-                                        <Link href='https://github.com/StephenRivero'>
-                                            <FaGithub />
-                                        </Link>
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-red-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
-                                        <Link href='/#contact'>
+                                    <Link href='https://www.linkedin.com/in/stephen-pastor/'>
+                                        <a target={'_blank'}>
+                                            <div className='rounded-full shadow-lg shadow-blue-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                                <FaLinkedinIn className='text-[#0A66C2]'/>
+                                            </div>
+                                        </a>
+                                    </Link>
+                                    <Link href='https://github.com/StephenRivero'>
+                                        <a target={'_blank'}>
+                                            <div className='rounded-full shadow-lg shadow-gray-600 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                                <FaGithub />
+                                            </div>
+                                        </a>
+                                    </Link>
+                                    <Link href='/#contact'>
+                                        <div className='rounded-full shadow-lg shadow-red-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
                                             <AiOutlineMail className='text-[red]'/>
-                                        </Link>
-                                    </div>
-                                    <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
-                                        <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
-                                            <BsFillPersonLinesFill className='text-[gray]'/>
-                                        </Link>
-                                    </div>
+                                        </div>
+                                    </Link>
+                                    <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
+                                        <a target={'_blank'}>
+                                            <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                                    <BsFillPersonLinesFill className='text-[gray]'/>
+                                            </div>
+                                        </a>
+                                    </Link>
                                 </div>
                         </div>
                     </div>

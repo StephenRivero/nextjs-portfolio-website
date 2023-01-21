@@ -36,14 +36,18 @@ const youtubeCloneProject = () => {
           </p>
           <div className='flex flex-nowrap w-fit mx-auto justify-center sm:justify-start md:justify-center mt-8 mb-4 md:mt-10 lg:mb-6 xl:mb-7 z-10'>
             <Link href="https://metaversus-stephenrivero.vercel.app/" className='flex justify-center'>
-              <button className='px-8 py-2 mr-4 xl:hover:scale-105 cursor-pointer'>
-                Demo
-              </button>
+              <a target="_blank">
+                <button className='px-8 py-2 mr-4 xl:hover:scale-105 cursor-pointer'>
+                  Demo
+                </button>
+              </a>
             </Link>
             <Link href="https://github.com/StephenRivero/metaverse-website">
-              <button className='px-8 py-2 xl:hover:scale-105 cursor-pointer'>
-                Code
-              </button>
+              <a target="_blank">
+                <button className='px-8 py-2 xl:hover:scale-105 cursor-pointer'>
+                  Code
+                </button>
+              </a>
             </Link>
           </div>
         </div>
@@ -71,9 +75,9 @@ const youtubeCloneProject = () => {
       </div>
       <div className='w-full max-w-[1240px] flex justify-start mx-auto'>
         <Link href='/#projects'>
-          <p className='underline underline-offset-4 cursor-pointer w-fit justify-start mr-auto mt-auto xl:pt-1 xl:static xl:mt-auto mb-4 xl:mb-5 ml-4 xl:hover:cursor-pointer'>
+          <a target={'_blank'} className='underline underline-offset-4 cursor-pointer w-fit justify-start mr-auto mt-auto xl:pt-1 xl:static xl:mt-auto mb-4 xl:mb-5 ml-4 xl:hover:cursor-pointer'>
             Back
-          </p>
+          </a>
         </Link>
       </div>
     </div>

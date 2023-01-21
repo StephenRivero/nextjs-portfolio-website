@@ -50,44 +50,53 @@ const Navbar = () => {
     <div className='flex justify-center mx-auto'>
         <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100]  xl:px-5` : `fixed w-full h-fit z-[100]  xl:px-5` }>
             <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
-                <Link href='/'>
-                    {/* <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'>
-                        stephen
-                    </h2> */}
-                    <Image 
-                        className="rounded-full xl:hover:cursor-pointer"
-                        src="/assets/logo-2-midjourney.png"
-                        alt="Website Logo"
-                        width="45px"
-                        height="45px"
-                    />
+                <Link href='/' className=''>
+                    <a href="#/" className='mb-[-5px] mt-[2px]'>
+                        <Image 
+                            className="rounded-full xl:hover:cursor-pointer"
+                            src="/assets/logo-2-midjourney.png"
+                            alt="Website Logo"
+                            width="45px"
+                            height="45px"
+                        />
+                    </a>    
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
-                                Home
-                            </li>
+                            <a href='#/'>
+                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                    Home
+                                </li>
+                            </a>
                         </Link>
                         <Link href='/#about'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
-                                About
-                            </li>
+                            <a href='#about'>
+                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                    About
+                                </li>
+                            </a>
                         </Link>
                         <Link href='/#skills'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
-                                Skills
-                            </li>
+                            <a href='#skills'>
+                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                    Skills
+                                </li>
+                            </a>
                         </Link>
                         <Link href='/#projects'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
-                                Projects
-                            </li>
+                            <a href='#projects'>
+                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                    Projects
+                                </li>
+                            </a>
                         </Link>
                         <Link href='/#contact'>
-                            <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out hover:scale-105 tracking-wider'>
-                                Contact
-                            </li>
+                            <a href='#contact'>
+                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                    Contact
+                                </li>
+                            </a>
                         </Link>
                     </ul>
                     <div 
@@ -115,11 +124,6 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                {/* <h2 className='text-[#FF0000] uppercase underline underline-offset-2 tracking-wider cursor-pointer'
-                                    onClick={()=> setNav(false)}
-                                > 
-                                    stephen
-                                </h2> */}
                                 <Image 
                                     className="rounded-full xl:hover:cursor-pointer"
                                     src="/assets/logo-2-midjourney.png"

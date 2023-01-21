@@ -15,33 +15,39 @@ const Main = () => {
                 <h1 className='py-4 text-gray-700'>
                     Hi, I&apos;m <span className='text-[#FF0000]'>Stephen</span>
                 </h1>
-                <h1 className='py-2 text-gray-700'>
+                <h1 className='py-2 px-2 text-gray-700'>
                     A Front-End Web Developer
                 </h1>
-                <p className='py-4 text-gray-600 max-w-[100%] m-auto'>
+                <p className='py-4 px-2 text-gray-600 max-w-[100%] m-auto'>
                     Specialized in building your exceptional web designs.
                 </p>
-                <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                    <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
-                        <Link href='https://www.linkedin.com/in/stephen-pastor/'>
-                            <FaLinkedinIn className='text-[#0A66C2]'/>
-                        </Link>
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
-                        <Link href='https://github.com/StephenRivero'>
-                            <FaGithub />
-                        </Link>
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
-                        <Link href='/#contact'>
+                <div className='flex items-center justify-between max-w-[330px] m-auto py-4 px-1'>
+                    <Link href='https://www.linkedin.com/in/stephen-pastor/'>
+                        <a target={'_blank'}>
+                            <div className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                <FaLinkedinIn className='text-[#0A66C2]'/>
+                            </div>
+                        </a>
+                    </Link>
+                    <Link href='https://github.com/StephenRivero'>
+                        <a target={'_blank'}>
+                            <div className='rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                <FaGithub />
+                            </div>
+                        </a>
+                    </Link>
+                    <Link href='/#contact'>
+                        <div className='rounded-full shadow-lg shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                             <AiOutlineMail className='text-[red]'/>
-                        </Link>
-                    </div>
-                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
-                        <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
-                            <BsFillPersonLinesFill className='text-[gray]'/>
-                        </Link>
-                    </div>
+                        </div>
+                    </Link>
+                    <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
+                        <a target={'_blank'}>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
+                                <BsFillPersonLinesFill className='text-[gray]'/>
+                            </div>
+                        </a>
+                    </Link>
                 </div>
             </div>
         </div>
