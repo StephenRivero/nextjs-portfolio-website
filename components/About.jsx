@@ -16,7 +16,7 @@ const About = () => {
                     / I am not your normal developer /
                 </p>
                 <p className='py-2 px-1 text-gray-600 text-justify'>
-                    I have over 8 years professional experience as a Licensed Sanitary Engineer in the Engineering Construction industry before becoming a Front-End Web Developer.
+                    I have over 7 years professional experience as a Licensed Sanitary Engineer in the Engineering Construction industry before becoming a Front-End Web Developer.
                     Throughout those years my physical & mental health had declined gradually to the point that I&apos;d got overweight & constantly sick due to the set of circumstances as a Project Engineer. 
 
                     It is during the “Pandemic Season” that I&apos;ve realized that I have to take a drastic change in my career plans. 
