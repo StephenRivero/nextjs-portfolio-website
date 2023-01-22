@@ -34,14 +34,14 @@ const Projects = () => {
                 <ProjectItem
                     title='Crypto App'
                     backgroundImg={cryptoImg}
-                    projectUrl='/crypto'
+                    projectUrl='/#projects'
                     tech='React JS'
                     status='Under Development'
                 />
                 <ProjectItem
                     title='Property Finder'
                     backgroundImg={propertyImg}
-                    projectUrl='/property'
+                    projectUrl='/#projects'
                     tech='Next JS'
                     status='Under Development'
                 />
