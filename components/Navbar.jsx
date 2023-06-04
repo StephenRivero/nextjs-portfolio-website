@@ -59,7 +59,7 @@ const Navbar = () => {
                             width="45px"
                             height="45px"
                         />
-                        <div className='text-[#800020] font-[600] text-2xl md:text-xl lg:text-2xl font-[Ubuntu] uppercase leading-none'>
+                        <div className='text-[#800020] font-[600] text-xl md:text-lg lg:text-2xl font-[Ubuntu] uppercase leading-none'>
                             Stephen Rivero
                         </div>
                     </a>
