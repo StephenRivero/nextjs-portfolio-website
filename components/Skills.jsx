@@ -4,9 +4,9 @@ import Image from 'next/image'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full pb-16 pt-16 p-2 flex justify-center'>
+    <div id='skills' className='w-full pb-16 pt-16 lg:pt-14 2xl:pt-16  p-2 flex justify-center'>
         <div className='max-w-[1240px] lg:w-[95%] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 pt-5'>
+            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 2xl:pt-5'>
                 Skills
             </p>
             <h2 className='py-4 pl-2'>
