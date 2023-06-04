@@ -51,7 +51,7 @@ const Navbar = () => {
         <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100]  xl:px-5` : `fixed w-full h-fit z-[100]  xl:px-5` }>
             <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
                 <Link href='/' className=''>
-                    <a href="#/" className='mb-[-5px] mt-[2px]'>
+                    <a href="#/" className='flex gap-2 items-center  '> {/* mb-[-3px] mt-[1px]  */}
                         <Image 
                             className="rounded-full xl:hover:cursor-pointer"
                             src="/assets/logo-2-midjourney.png"
@@ -59,7 +59,11 @@ const Navbar = () => {
                             width="45px"
                             height="45px"
                         />
-                    </a>    
+                        <div className='text-[#800020] font-[600] text-2xl md:text-xl lg:text-2xl font-[Ubuntu] uppercase leading-none'>
+                            Stephen Rivero
+                        </div>
+                    </a>
+
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
