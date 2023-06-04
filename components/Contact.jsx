@@ -13,8 +13,10 @@ const Contact = () => {
             <p className='text-xl tracking-widest uppercase text-[#FF0000] pt-5 pl-3 lg:pl-5'>
                 Contact
             </p>
-            <h2 className='py-4 pl-3 lg:pl-5'>Get In Touch</h2>
-            {/* left */}
+            <h2 className='py-4 pl-3 lg:pl-5'>
+                Get In Touch
+            </h2>
+            {/* left side */}
             <div className='grid lg:grid-cols-5 gap-8 justify-center'>
                 <div className='col-span-3 md:col-span-5 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4'>
                     <div className='lg:p-4 h-full flex flex-col justify-between'>
@@ -22,13 +24,22 @@ const Contact = () => {
                             <div className='flex justify-center w-full'>
                                 <Image 
                                     className='rounded-xl hover:scale-105 ease-in duration-300 w-full' 
-                                    src={ContactImg} alt="Profile picture" width="300px"  height="300px" />
+                                    src={ContactImg} alt="Profile picture" width="300px"  height="300px" 
+                                />
                             </div>
                             <div>
-                                <h2 className='py-2 text-[#FF0000]'>Stephen Rivero</h2>
-                                <p className='underline underline-offset-2 tracking-wider'>Front-End Web Developer</p>
-                                <p className='py-4'>I am available for freelance or full-time positions. Contact me and let&apos;s talk.</p>
-                                <p className='py-4 flex items-center'><AiOutlineMail className='text-[red] mr-2 mt-[2.7px]'/> stephen.m.rivero@gmail.com</p>
+                                <h2 className='py-2 text-[#800020]'>{/* #FF0000 */}
+                                    Stephen Rivero
+                                </h2>
+                                <p className='underline underline-offset-2 tracking-wider'>
+                                    Front-End Web Developer
+                                </p>
+                                <p className='py-4'>
+                                    I am available for freelance or full-time positions. Contact me and let&apos;s talk.
+                                </p>
+                                <p className='py-4 flex items-center'><AiOutlineMail className='text-[red] mr-2 mt-[2.7px]'/>
+                                 stephen.m.rivero@gmail.com
+                                </p>
                             </div>
                         </div>
                         <div className='mt-4'>
@@ -65,7 +76,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                {/* right */}
+                {/* right side */}
                 <div className='col-span-3 md:col-span-5 lg:col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                     <div className='p-4'>
                         <form action="https://formspree.io/f/xknejoly" method="POST">

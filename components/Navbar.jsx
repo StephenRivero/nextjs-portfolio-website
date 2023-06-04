@@ -51,7 +51,7 @@ const Navbar = () => {
         <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-xl z-[100]  xl:px-5` : `fixed w-full h-fit z-[100]  xl:px-5` }>
             <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
                 <Link href='/' className=''>
-                    <a href="#/" className='flex gap-2 items-center  '> {/* mb-[-3px] mt-[1px]  */}
+                    <a href="#/" className='flex gap-3 items-center  '> {/* mb-[-3px] mt-[1px]  */}
                         <Image 
                             className="rounded-full xl:hover:cursor-pointer"
                             src="/assets/logo-2-midjourney.png"
@@ -69,35 +69,35 @@ const Navbar = () => {
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
                             <a href='#/'>
-                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Home
                                 </li>
                             </a>
                         </Link>
                         <Link href='/#about'>
                             <a href='#about'>
-                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     About
                                 </li>
                             </a>
                         </Link>
                         <Link href='/#skills'>
                             <a href='#skills'>
-                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Skills
                                 </li>
                             </a>
                         </Link>
                         <Link href='/#projects'>
                             <a href='#projects'>
-                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Projects
                                 </li>
                             </a>
                         </Link>
                         <Link href='/#contact'>
                             <a href='#contact'>
-                                <li className='ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Contact
                                 </li>
                             </a>
