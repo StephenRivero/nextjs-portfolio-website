@@ -72,7 +72,7 @@ const Contact = () => {
                                         <AiOutlineMail className='text-[red]'/>
                                     </div>
                                 </Link>
-                                <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
+                                <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                                     <a target={'_blank'}>
                                         <div className='rounded-full shadow-lg shadow-gray-400 p-5 cursor-pointer hover:scale-110 ease-out duration-200'>
                                                 <BsFillPersonLinesFill className='text-[gray]'/>
