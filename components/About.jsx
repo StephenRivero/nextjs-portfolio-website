@@ -21,7 +21,7 @@ const About = () => {
 
                     It is during the “Pandemic Season” that I&apos;ve realized that I have to take a drastic change in my career plans. 
                     After researching & self-assessment, I had decided to pursue Front-End Web Development starting in January 2021 while still working as a Project Engineer. And after a year of learning Front-End Web Development in “
-                    <a href="https://www.theodinproject.com/" className='font-bold xl:hover:cursor-pointer underline'>
+                    <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer" className='font-bold xl:hover:cursor-pointer underline'>
                         The Odin Project
                     </a>
                     ”, a free online web development course, I&apos;ve got my first job as a Front-End Web Developer on January 2022.
