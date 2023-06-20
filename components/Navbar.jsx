@@ -67,13 +67,13 @@ const Navbar = () => {
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                        <Link href='/'>
+                        {/* <Link href='/'>
                             <a href='#/'>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Home
                                 </li>
                             </a>
-                        </Link>
+                        </Link> */}
                         <Link href='/#about'>
                             <a href='#about'>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
@@ -99,6 +99,13 @@ const Navbar = () => {
                             <a href='#contact'>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Contact
+                                </li>
+                            </a>
+                        </Link>
+                        <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
+                            <a target={'_blank'}>
+                                <li className='text-[#800020] animate-pulse hover:scale-105 hover:animate-none font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                    Resume
                                 </li>
                             </a>
                         </Link>
