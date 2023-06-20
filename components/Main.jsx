@@ -46,7 +46,7 @@ const Main = () => {
                     </Link>
                     <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                         <a target={'_blank'}>
-                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200 animate-pulse'>
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'>
                                 <BsFillPersonLinesFill className='text-[gray]'/>
                             </div>
                         </a>
