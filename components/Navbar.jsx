@@ -158,10 +158,17 @@ const Navbar = () => {
                         </div>
                         <div className='py-4 flex flex-col'>
                             <ul className='uppercase'>
-                                <Link href='/'>
+                                {/* <Link href='/'>
                                     <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                                         Home
                                     </li>
+                                </Link> */}
+                                <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
+                                    <a target={'_blank'}>
+                                        <li className='text-[#800020] animate-pulse py-4 hover:scale-105 hover:animate-none font-bold text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                            Resume
+                                        </li>
+                                    </a>
                                 </Link>
                                 <Link href='/#about'>
                                     <li onClick={()=> setNav(false)} className='py-4 text-sm'>
@@ -193,12 +200,16 @@ const Navbar = () => {
                         <div className='flex items-center justify-around my-4 w-full'>
                             <div className='rounded-full shadow-lg shadow-blue-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://www.linkedin.com/in/stephen-pastor/'>
-                                    <FaLinkedinIn className='text-[#0A66C2]'/>
+                                    <a target={'_blank'}>
+                                        <FaLinkedinIn className='text-[#0A66C2]'/>
+                                    </a>
                                 </Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-500 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://github.com/StephenRivero'>
-                                    <FaGithub />
+                                    <a target={'_blank'}>
+                                        <FaGithub />
+                                    </a>
                                 </Link>
                             </div >
                             <div className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
@@ -208,7 +219,9 @@ const Navbar = () => {
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
                                 <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
-                                    <BsFillPersonLinesFill className='text-[gray]'/>
+                                    <a target={'_blank'}>
+                                        <BsFillPersonLinesFill className='text-[gray]'/>
+                                    </a>
                                 </Link>
                             </div>
                         </div>
