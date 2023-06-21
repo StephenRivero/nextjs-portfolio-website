@@ -213,7 +213,7 @@ const Navbar = () => {
                                 </Link>
                             </div >
                             <div className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <Link href='/#contact'>
+                                <Link href='/#contact' onClick={()=> setNav(false)}>
                                     <AiOutlineMail className='text-[red]'/>
                                 </Link>
                             </div>
