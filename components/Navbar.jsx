@@ -124,6 +124,7 @@ const Navbar = () => {
                 className={
                     nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
                 }
+                onClick={()=> setNav(false)}
             >
                 <div 
                     className={
@@ -131,6 +132,7 @@ const Navbar = () => {
                             ? 'fixed right-0 top-0 w-[70%] sm:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500' 
                             : 'fixed right-[-120%] top-0 p-10 ease-in duration-500'
                     }
+                    onClick={e => e.stopPropagation()}
                 >
                     <div>
                         <div className='flex w-full items-center justify-between'>
