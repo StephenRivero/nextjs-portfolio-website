@@ -12,8 +12,8 @@ const Skills = () => {
             <h2 className='py-4 pl-2'>
                 What I Can Do
             </h2>
-            <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <div className='p-6 shadow-xl shadow-orange-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+            <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
+                <div className='order-1 h-fit p-3 sm:p-6 shadow-xl border border-orange-100 shadow-orange-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <div className=''>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="64" height="64" alt="HTML5 logo">
@@ -24,14 +24,14 @@ const Skills = () => {
                                 <path fill="#FFF" d="M255,208 L255,265 325,265 318,338 255,355 255,414 371,382 372,372 385,223 387,208 371,208zM255,94 L255,129 255,150 255,150 392,150 392,150 392,150 393,138 396,109 397,94z"/>
                             </svg>
                         </div>
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 HTML5
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-blue-600 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-2 h-fit p-3 sm:p-6 shadow-xl border border-blue-100 shadow-blue-600 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" alt="CSS3 logo" viewBox="0 0 512 512">
 	                        <path fill="#264de4" d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"/>
@@ -39,14 +39,14 @@ const Skills = () => {
 	                        <path fill="#ebebeb" d="M124.46 208.59l5.065 56.517H256V208.59zM119.419 150.715H256V94.197H114.281zM256 355.372l-.248.066-62.944-16.996-4.023-45.076h-56.736l7.919 88.741 115.772 32.14.26-.073z"/>
 	                        <path fill="#fff" d="M255.805 208.59v56.517H325.4l-6.56 73.299-63.035 17.013v58.8l115.864-32.112.85-9.549 13.28-148.792 1.38-15.176 10.203-114.393H255.805v56.518h79.639L330.3 208.59z"/>
                             </svg>
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 CSS3
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-teal-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='hidden p-6 shadow-xl shadow-teal-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <Image 
                             src="/assets/skills/tailwind.png" 
@@ -54,36 +54,36 @@ const Skills = () => {
                             height='64px' 
                             alt='/' 
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 Tailwind CSS
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-blue-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='hidden p-6 shadow-xl shadow-blue-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 476.30000000000007" width="64" height="64" alt="Material UI logo"><path d="M0 259.8V0l225 129.9v86.6L75 129.9v173.2z" fill="#00b0ff"/><path d="M225 129.9L450 0v259.8l-150 86.6-75-43.3 150-86.6v-86.6l-150 86.6z" fill="#0081cb"/><path d="M225 303.1v86.6l150 86.6v-86.6z" fill="#00b0ff"/><path d="M375 476.3l225-129.9V173.2l-75 43.3v86.6l-150 86.6zm150-346.4V43.3L600 0v86.6z" fill="#0081cb"/>
                         </svg>
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 Material UI
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='hidden p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <svg xmlns="http:www.w3.org/2000/svg" viewBox="0 0 14 21" role="presentation" width="64" height="64" alt="Framer Motion logo"><path d="M0 0h14v7H7zm0 7h7l7 7H7v7l-7-7z" fill="currentColor"></path>
                         </svg>
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 Framer Motion
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-yellow-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-3 h-fit p-[12px] sm:p-6 border border-yellow-100 shadow-xl shadow-yellow-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <Image 
                             src="/assets/skills/javascript.png" 
@@ -91,14 +91,27 @@ const Skills = () => {
                             height='64px' 
                             alt='Javascript logo' 
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 Javascript ES6
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-cyan-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-4 h-fit p-[12px] sm:p-6 border border-blue-100 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                    <div className='flex justify-center items-center gap-5'>
+                        <svg alt='Typescript logo' xmlns="http://www.w3.org/2000/svg" width="64" height="64" version="1.1" viewBox="0 0 260 260">
+                        	<path d="m9.75 0h240.5c5.385 0 9.75 4.3652 9.75 9.75v240.5c0 5.385-4.365 9.75-9.75 9.75h-240.5c-5.3848 0-9.75-4.365-9.75-9.75v-240.5c0-5.3848 4.3652-9.75 9.75-9.75z" fill="#fff"/>
+                        	<path d="m9.75 0h240.5c5.385 0 9.75 4.3652 9.75 9.75v240.5c0 5.385-4.365 9.75-9.75 9.75h-240.5c-5.3848 0-9.75-4.365-9.75-9.75v-240.5c0-5.3848 4.3652-9.75 9.75-9.75zm134.78 138.32v-21.324h-92.532v21.324h33.036v94.946h26.298v-94.946zm10.485 92.439c4.241 2.162 9.257 3.784 15.048 4.865 5.79 1.081 11.893 1.622 18.309 1.622 6.253 0 12.193-0.595 17.82-1.784 5.628-1.189 10.562-3.149 14.803-5.879s7.598-6.297 10.072-10.703 3.711-9.852 3.711-16.339c0-4.703-0.707-8.824-2.12-12.365-1.414-3.541-3.453-6.69-6.117-9.447s-5.859-5.23-9.583-7.419c-3.725-2.189-7.925-4.257-12.601-6.203-3.425-1.406-6.497-2.771-9.216-4.095-2.718-1.324-5.029-2.676-6.932-4.054-1.903-1.379-3.371-2.838-4.404-4.379-1.033-1.54-1.55-3.284-1.55-5.23 0-1.784 0.463-3.392 1.387-4.824 0.924-1.433 2.229-2.663 3.915-3.69 1.685-1.027 3.751-1.824 6.198-2.392 2.447-0.567 5.165-0.851 8.156-0.851 2.174 0 4.472 0.162 6.891 0.486 2.42 0.325 4.853 0.825 7.299 1.5 2.447 0.676 4.826 1.527 7.137 2.555 2.311 1.027 4.445 2.216 6.402 3.567v-24.244c-3.969-1.514-8.305-2.636-13.008-3.365-4.704-0.73-10.1-1.095-16.189-1.095-6.199 0-12.071 0.662-17.617 1.987-5.546 1.324-10.425 3.392-14.639 6.203s-7.544 6.392-9.991 10.743c-2.447 4.352-3.67 9.555-3.67 15.609 0 7.731 2.243 14.326 6.729 19.785 4.485 5.46 11.295 10.082 20.43 13.866 3.588 1.46 6.932 2.892 10.031 4.298 3.099 1.405 5.777 2.865 8.033 4.378 2.257 1.514 4.037 3.162 5.342 4.946s1.958 3.811 1.958 6.082c0 1.676-0.408 3.23-1.224 4.662-0.815 1.433-2.052 2.676-3.71 3.73-1.659 1.054-3.725 1.879-6.199 2.473-2.474 0.595-5.369 0.892-8.686 0.892-5.654 0-11.254-0.986-16.8-2.959s-10.684-4.933-15.415-8.879z" fill="#3178c6"/>
+                        </svg>
+                        <div className='hidden sm:flex items-center justify-center'>
+                            <h3>
+                                Typescript
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='order-5 h-fit p-3 sm:p-6 border border-cyan-100 shadow-xl shadow-cyan-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <Image 
                             src="/assets/skills/react.png" 
@@ -106,14 +119,14 @@ const Skills = () => {
                             height='64px' 
                             alt='ReactJs logo' 
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 ReactJs
                             </h3>
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-5 h-fit p-3 sm:p-6 border border-black/10 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <Image 
                             src="/assets/skills/nextjs.png" 
@@ -121,7 +134,7 @@ const Skills = () => {
                             height='64px' 
                             alt='/' 
                         />
-                        <div className='flex items-center justify-center'>
+                        <div className='hidden sm:flex items-center justify-center'>
                             <h3>
                                 NextJs
                             </h3>
