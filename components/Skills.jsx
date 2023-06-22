@@ -12,8 +12,8 @@ const Skills = () => {
             <h2 className='py-4 pl-2'>
                 What I Can Do
             </h2>
-            <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 gap-8'>
-                <div className='order-1 h-fit p-3 sm:p-6 shadow-xl border border-orange-100 shadow-orange-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+            <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8'>
+                <div className='order-1 h-fit p-3 sm:p-6 shadow-lg sm:shadow-xl border border-orange-100 shadow-orange-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <div className=''>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="64" height="64" alt="HTML5 logo">
@@ -31,7 +31,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='order-2 h-fit p-3 sm:p-6 shadow-xl border border-blue-100 shadow-blue-600 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-2 h-fit p-3 sm:p-6 shadow-lg sm:shadow-xl border border-blue-100 shadow-blue-600 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" alt="CSS3 logo" viewBox="0 0 512 512">
 	                        <path fill="#264de4" d="M71.357 460.819L30.272 0h451.456l-41.129 460.746L255.724 512z"/>
@@ -46,44 +46,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='hidden p-6 shadow-xl shadow-teal-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
-                    <div className='flex justify-center items-center gap-5'>
-                        <Image 
-                            src="/assets/skills/tailwind.png" 
-                            width='64px' 
-                            height='64px' 
-                            alt='/' 
-                        />
-                        <div className='hidden sm:flex items-center justify-center'>
-                            <h3>
-                                Tailwind CSS
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='hidden p-6 shadow-xl shadow-blue-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
-                    <div className='flex justify-center items-center gap-5'>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 476.30000000000007" width="64" height="64" alt="Material UI logo"><path d="M0 259.8V0l225 129.9v86.6L75 129.9v173.2z" fill="#00b0ff"/><path d="M225 129.9L450 0v259.8l-150 86.6-75-43.3 150-86.6v-86.6l-150 86.6z" fill="#0081cb"/><path d="M225 303.1v86.6l150 86.6v-86.6z" fill="#00b0ff"/><path d="M375 476.3l225-129.9V173.2l-75 43.3v86.6l-150 86.6zm150-346.4V43.3L600 0v86.6z" fill="#0081cb"/>
-                        </svg>
-                        <div className='hidden sm:flex items-center justify-center'>
-                            <h3>
-                                Material UI
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='hidden p-6 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
-                    <div className='flex justify-center items-center gap-5'>
-                        <svg xmlns="http:www.w3.org/2000/svg" viewBox="0 0 14 21" role="presentation" width="64" height="64" alt="Framer Motion logo"><path d="M0 0h14v7H7zm0 7h7l7 7H7v7l-7-7z" fill="currentColor"></path>
-                        </svg>
-                        <div className='hidden sm:flex items-center justify-center'>
-                            <h3>
-                                Framer Motion
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='order-3 h-fit p-[12px] sm:p-6 border border-yellow-100 shadow-xl shadow-yellow-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-3 h-fit p-[12px] sm:p-6 border border-yellow-100 shadow-lg sm:shadow-xl shadow-yellow-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <Image 
                             src="/assets/skills/javascript.png" 
@@ -98,7 +61,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='order-4 h-fit p-[12px] sm:p-6 border border-blue-100 shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-4 h-fit p-[12px] sm:p-6 border border-blue-100 shadow-lg sm:shadow-xl shadow-blue-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <svg alt='Typescript logo' xmlns="http://www.w3.org/2000/svg" width="64" height="64" version="1.1" viewBox="0 0 260 260">
                         	<path d="m9.75 0h240.5c5.385 0 9.75 4.3652 9.75 9.75v240.5c0 5.385-4.365 9.75-9.75 9.75h-240.5c-5.3848 0-9.75-4.365-9.75-9.75v-240.5c0-5.3848 4.3652-9.75 9.75-9.75z" fill="#fff"/>
@@ -111,7 +74,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='order-5 h-fit p-3 sm:p-6 border border-cyan-100 shadow-xl shadow-cyan-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                <div className='order-5 h-fit p-3 sm:p-6 border border-cyan-100 shadow-lg sm:shadow-xl shadow-cyan-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                     <div className='flex justify-center items-center gap-5'>
                         <Image 
                             src="/assets/skills/react.png" 
@@ -143,8 +106,52 @@ const Skills = () => {
                 </div>
             </div>
             <div className='flex flex-col mt-10'>
+                <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 mb-4'>
+                    Frontend Tools
+                </p>
+                <div className='grid grid-cols-3 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8'>
+                    <div className='h-fit p-3 sm:p-6 border border-teal-100 shadow-lg sm:shadow-xl shadow-teal-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                        <div className='flex justify-center items-center gap-5'>
+                            <Image 
+                                src="/assets/skills/tailwind.png" 
+                                width='64px' 
+                                height='64px' 
+                                alt='/' 
+                            />
+                            <div className='hidden sm:flex items-center justify-center'>
+                                <h3>
+                                    Tailwind CSS
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='h-fit p-3 sm:p-6 border border-blue-100 shadow-xl shadow-blue-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                        <div className='flex justify-center items-center gap-5'>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 476.30000000000007" width="64" height="64" alt="Material UI logo"><path d="M0 259.8V0l225 129.9v86.6L75 129.9v173.2z" fill="#00b0ff"/><path d="M225 129.9L450 0v259.8l-150 86.6-75-43.3 150-86.6v-86.6l-150 86.6z" fill="#0081cb"/><path d="M225 303.1v86.6l150 86.6v-86.6z" fill="#00b0ff"/><path d="M375 476.3l225-129.9V173.2l-75 43.3v86.6l-150 86.6zm150-346.4V43.3L600 0v86.6z" fill="#0081cb"/>
+                            </svg>
+                            <div className='hidden sm:flex items-center justify-center'>
+                                <h3>
+                                    Material UI
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='h-fit p-3 sm:p-6 border border-black/10 shadow-xl shadow-black/50 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                        <div className='flex justify-center items-center gap-5'>
+                            <svg xmlns="http:www.w3.org/2000/svg" viewBox="0 0 14 21" role="presentation" width="64" height="64" alt="Framer Motion logo"><path d="M0 0h14v7H7zm0 7h7l7 7H7v7l-7-7z" fill="currentColor"></path>
+                            </svg>
+                            <div className='hidden sm:flex items-center justify-center'>
+                                <h3>
+                                    Framer Motion
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className='flex flex-col mt-10'>
                 <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 mb-2'>
-                    Tools
+                    Development Tools
                 </p>
                 <div className='grid sm:grid-cols-2 lg:grid-cols-4 gap-8'>
                     <div className='p-6 shadow-xl shadow-orange-500 rounded-xl hover:scale-105 ease-in-out duration-200'>
