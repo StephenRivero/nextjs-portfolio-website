@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Skills = () => {
   return (
-    <div id='skills' className='w-full pb-16 pt-16 lg:pt-14 2xl:pt-16  p-2 flex justify-center'>
+    <div id='skills' className='w-full pb-16 pt-16 lg:pt-14 2xl:pt-16  p-2 sm:p-5 flex justify-center'>
         <div className='max-w-[1240px] lg:w-[95%] mx-auto flex flex-col justify-center h-full'>
             <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 2xl:pt-5'>
                 Skills
@@ -261,7 +261,7 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className='h-fit p-3 sm:p-6 border border-blue-100 shadow-lg shadow-[#0078d7] rounded-xl hover:scale-105 ease-in-out duration-200'>
-                        <div className='flex justify-center items-center gap-5 py-[2.5px]'>
+                        <div className='flex justify-center items-center gap-5 sm:py-[2.5px] md:py-0'>
                             <Image 
                                 src="/assets/skills/Visual_Studio_Code_1.35_icon.svg.png" 
                                 width='64px' 
