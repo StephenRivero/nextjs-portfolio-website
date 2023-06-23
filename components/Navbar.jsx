@@ -167,8 +167,10 @@ const Navbar = () => {
                                 </Link> */}
                                 <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                                     <a target={'_blank'}>
-                                        <li className='text-[#800020] animate-pulse py-4 hover:scale-105 hover:animate-none font-bold text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
-                                            Resume
+                                        <li className='text-[#800020] animate-pulse py-4  font-bold text-sm uppercase  underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                            <span className='hover:scale-105 hover:animate-none'>
+                                                Resume
+                                            </span>
                                         </li>
                                     </a>
                                 </Link>
