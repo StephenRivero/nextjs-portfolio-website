@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full 2xl:h-screen pb-16 pt-16 lg:pt-14 2xl:pt-16  p-2 sm:p-5 flex justify-center xl:items-center'>
         <div className='max-w-[1240px] lg:w-[95%] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 2xl:pt-5 xl:mb-[15px] xl:ml-[140px] xl:mt-[16px]'>
+            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 2xl:pt-5 xl:mb-[16px] xl:ml-[140px] xl:mt-[16px]'>
                 Skills
             </p>
             <h2 className='xl:hidden py-4 pl-2'>
