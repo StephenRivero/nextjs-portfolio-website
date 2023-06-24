@@ -21,7 +21,7 @@ const Main = () => {
                 <h1 className='py-2 px-2 text-gray-700'>
                     A Front-End Web Developer
                 </h1>
-                <p className='py-4 px-2 text-gray-600 max-w-[100%] m-auto'>
+                <p className='py-4 px-2 text-gray-600 max-w-[100%] m-auto md:pt-10 '>{/* lg:pt-8 */}
                     Specialized in building your exceptional web designs.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4 px-1'>
