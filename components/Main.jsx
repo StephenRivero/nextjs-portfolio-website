@@ -7,12 +7,12 @@ import Link from 'next/link'
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
+        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center sm:mt-8 md:mt-0'>
             <div>
                 <p className='uppercase text-sm tracking-widest text-gray-600'>
                     LET&apos;S BUILD TOGETHER
                 </p>
-                <h1 className='py-4 text-gray-700'>
+                <h1 className='py-4 sm:py-0 sm:pt-4 sm:pb-2 text-gray-700 sm:leading-none md:leading-normal'>
                     Hi, I&apos;m  
                     <span className='text-[#800020] ml-4'>{/* #FF0000  #63000A*/}
                         Stephen

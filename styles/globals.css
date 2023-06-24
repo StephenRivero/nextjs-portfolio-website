@@ -16,11 +16,11 @@ html {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl md:text-6xl
+    @apply text-4xl md:text-6xl
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl md:text-4xl
   }
 
   li {
