@@ -5,6 +5,8 @@ import youtubeImg from '../public/assets/projects/youtube-clone-project.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
 import propertyImg from '../public/assets/projects/property.jpg'
 import metaversusImg from '../public/assets/projects/metaverse-web-app.png'
+import youtubeClone2Img from '../public/assets/projects/youtube-clone-2.png'
+import flexibbleImg from '../public/assets/projects/flexibble.png'
 
 const Projects = () => {
   return (
@@ -17,34 +19,35 @@ const Projects = () => {
                 What I&apos;ve Built
             </h2>
             <div className='grid md:grid-cols-2 gap-8'>
+                <ProjectItem
+                    title='YouTube Clone 2'
+                    backgroundImg={youtubeClone2Img}
+                    projectUrl='/#projects'
+                    tech='React.js, Redux Toolkit, Typescript, & Tailwind Css'
+                    status='More Info'
+                />
                 <ProjectItem 
                     title='Metaversus' 
                     backgroundImg={metaversusImg} 
                     projectUrl='/metaversus'
-                    tech='Tailwind Css, Framer Motion, React JS, & NextJs-13'
+                    tech='Tailwind Css, Framer Motion, React.js, & Next.js-13'
                     status='More Info' 
                 />
                 <ProjectItem
                     title='YouTube Clone'
                     backgroundImg={youtubeImg}
                     projectUrl='/youtube-clone-project'
-                    tech='React JS, Rapid API, & MUI 5'
+                    tech='React.js, Rapid API, & MUI 5'
                     status='More Info'
                 />
                 <ProjectItem
-                    title='Crypto App'
-                    backgroundImg={cryptoImg}
+                    title='Dribbble Clone'
+                    backgroundImg={flexibbleImg}
                     projectUrl='/#projects'
-                    tech='React JS'
+                    tech='React.js, Next.js-13, Grafbase, Typescript, Tailwind Css'
                     status='Under Development'
                 />
-                <ProjectItem
-                    title='Property Finder'
-                    backgroundImg={propertyImg}
-                    projectUrl='/#projects'
-                    tech='Next JS'
-                    status='Under Development'
-                />
+                
             </div>
         </div>
     </div>

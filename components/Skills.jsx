@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <div id='skills' className='w-full 2xl:h-screen pb-16 pt-16 lg:pt-14 2xl:pt-16  p-2 sm:p-5 flex justify-center xl:items-center'>
         <div className='max-w-[1240px] lg:w-[95%] mx-auto flex flex-col justify-center h-full'>
-            <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 2xl:pt-5 xl:mb-[16px] xl:ml-[140px] xl:mt-[16px]'>
+            <p className='xl:pb-[1px] text-xl tracking-widest uppercase text-[#FF0000] pl-2 2xl:pt-5 xl:mb-[15px] xl:ml-[140px] 2xl:ml-[145px] xl:mt-[16px]'>
                 Skills
             </p>
             <h2 className='xl:hidden py-4 pl-2'>
@@ -14,7 +14,7 @@ const Skills = () => {
             </h2>
             <div className='flex flex-col xl:flex-row xl:gap-8 xl:justify-around'>
                 {/* Skills */}
-                <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-6 sm:gap-8'>
+                <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-6 sm:gap-8 xl:pt-[2px]'>
                     <div className='order-1 h-fit p-3 sm:p-6 shadow-lg border border-orange-100 shadow-orange-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                         <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                             <div className=''>
