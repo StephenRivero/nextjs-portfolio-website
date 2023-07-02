@@ -2,10 +2,10 @@ import React from 'react';
 import Image from 'next/image';
 import ProjectItem from './ProjectItem';
 import youtubeImg from '../public/assets/projects/youtube-clone-project.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
-import propertyImg from '../public/assets/projects/property.jpg'
+// import cryptoImg from '../public/assets/projects/crypto.jpg';
+// import propertyImg from '../public/assets/projects/property.jpg'
 import metaversusImg from '../public/assets/projects/metaverse-web-app.png'
-// import youtubeClone2Img from '../public/assets/projects/youtube-clone-2.png'
+import youtubeClone2Img from '../public/assets/projects/youtube-clone-2.png'
 import flexibbleImg from '../public/assets/projects/flexibble.png'
 
 const Projects = () => {
@@ -21,7 +21,7 @@ const Projects = () => {
             <div className='grid md:grid-cols-2 gap-8'>
                 <ProjectItem
                     title='YouTube Clone 2'
-                    backgroundImg={propertyImg}
+                    backgroundImg={youtubeClone2Img}
                     projectUrl='/youtube-clone-2'
                     tech='React.js, Redux Toolkit, Typescript, & Tailwind Css'
                     status='More Info'
