@@ -9,10 +9,10 @@ import { RiRadioButtonFill } from 'react-icons/ri'
 const youtubeClone2 = () => {
   return (
     <div className='w-full xl:h-[100vh] overflow-x-hidden'>
-      <div className='w-full h-[60vw] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] relative'>
-        <div className='absolute top-0 left-0 w-full h-[60vw] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] bg-black/80 z-10' />
+      <div className='w-full h-[60vw] sm:h-[50vh] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] relative'>
+        <div className='absolute top-0 left-0 w-full h-[60vw] sm:h-[50vh] md:h-[50vw] lg:h-[18vw] xl:h-[25vw] bg-black/80 z-10' />
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={youtubeClone2Img} alt="/" />
-        <div className='absolute top-[75%] sm:top-[88%] md:top-[89%] lg:top-[79%] xl:top-[85%] max-w-[1240px] pl-4 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 px-2'>
+        <div className='absolute top-[75%] sm:top-[75%] md:top-[89%] lg:top-[79%] xl:top-[85%] max-w-[1240px] pl-4 w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 px-2'>
           <h2 className='pb-2'>
             YouTube Clone 2
           </h2>

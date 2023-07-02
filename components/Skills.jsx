@@ -14,7 +14,7 @@ const Skills = () => {
             </h2>
             <div className='flex flex-col xl:flex-row xl:gap-8 xl:justify-around'>
                 {/* Skills */}
-                <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-6 sm:gap-8 xl:pt-[2px]'>
+                <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-2 gap-5 md:gap-8 xl:pt-[2px]'>
                     <div className='order-1 h-fit p-3 sm:p-6 shadow-lg border border-orange-100 shadow-orange-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                         <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                             <div className=''>
@@ -87,13 +87,13 @@ const Skills = () => {
                     <div className='order-5 h-fit p-3 sm:p-6 border border-cyan-100 shadow-lg shadow-cyan-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                         <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                             <svg width={64} height={64} xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.23174 23 20.46348">
-                            <title>React Logo</title>
-                            <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
-                            <g stroke="#61dafb" strokeWidth="1" fill="none">
-                                <ellipse rx="11" ry="4.2"/>
-                                <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
-                                <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
-                            </g>
+                                <title>React Logo</title>
+                                <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
+                                <g stroke="#61dafb" strokeWidth="1" fill="none">
+                                    <ellipse rx="11" ry="4.2"/>
+                                    <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+                                    <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+                                </g>
                             </svg>
                             <div className='hidden sm:flex items-center justify-center'>
                                 <h3>
@@ -123,7 +123,7 @@ const Skills = () => {
                     <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 mb-4 xl:mb-[17px] xl:text-lg 2xl:text-xl'>
                         Frontend Tools
                     </p>
-                    <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:flex xl:flex-col xl:items-center gap-6 sm:gap-8 xl:gap-[32px]'>{/* xl:grid-cols-1 */}
+                    <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:flex xl:flex-col xl:items-center gap-5 md:gap-8 xl:gap-[32px]'>{/* xl:grid-cols-1 */}
                         <div className='h-fit xl:w-[161px] p-3 sm:p-6 border border-teal-100 shadow-lg shadow-teal-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                             <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="61" height="62" viewBox="0 0 1000 1000" fill="none">
@@ -166,7 +166,7 @@ const Skills = () => {
                     <p className='text-xl tracking-widest uppercase text-[#FF0000] pl-2 mb-4 xl:text-center'>
                         Development Tools
                     </p>
-                    <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:flex xl:flex-wrap xl:items-center xl:max-w-[560px] gap-8'>
+                    <div className='grid grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 xl:flex xl:flex-wrap xl:items-center xl:max-w-[560px] gap-5 md:gap-8'>
                         <div className='h-fit xl:w-[161px] p-3 sm:p-[23px] shadow-lg border border-orange-100 shadow-orange-500 rounded-xl hover:scale-105 ease-in-out duration-200'>
                             <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                                 <Image 
