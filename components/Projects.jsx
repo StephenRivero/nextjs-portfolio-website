@@ -5,7 +5,7 @@ import youtubeImg from '../public/assets/projects/youtube-clone-project.jpg';
 import cryptoImg from '../public/assets/projects/crypto.jpg';
 import propertyImg from '../public/assets/projects/property.jpg'
 import metaversusImg from '../public/assets/projects/metaverse-web-app.png'
-import youtubeClone2Img from '../public/assets/projects/youtube-clone-2.png'
+// import youtubeClone2Img from '../public/assets/projects/youtube-clone-2.png'
 import flexibbleImg from '../public/assets/projects/flexibble.png'
 
 const Projects = () => {
