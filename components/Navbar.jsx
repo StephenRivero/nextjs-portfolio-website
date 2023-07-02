@@ -14,16 +14,14 @@ const Navbar = () => {
     const router = useRouter()
 
     useEffect(()=>{
-        if (
-            router.asPath === '/youtube-clone-project'
-        ) {
+        if (router.asPath === '/youtube-clone-project' || router.asPath === '/youtube-clone-2' || router.asPath === '/metaversus') {
             setNavBg('black')
             setLinkColor('#FFFFFF')
-        } else if (
-            router.asPath === '/metaversus'
-        ) {
-            setNavBg('black')
-            setLinkColor('#FFFFFF')
+        // } else if (
+        //     router.asPath === '/metaversus'
+        // ) {
+        //     setNavBg('black')
+        //     setLinkColor('#FFFFFF')
         } else {
             setNavBg('#FFFFFF')
             setLinkColor('#282828')

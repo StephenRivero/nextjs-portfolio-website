@@ -22,7 +22,7 @@ const Projects = () => {
                 <ProjectItem
                     title='YouTube Clone 2'
                     backgroundImg={youtubeClone2Img}
-                    projectUrl='/#projects'
+                    projectUrl='/youtube-clone-2'
                     tech='React.js, Redux Toolkit, Typescript, & Tailwind Css'
                     status='More Info'
                 />

@@ -28,7 +28,7 @@ html {
   }
 
   button {
-    @apply shadow-xl shadow-red-400 rounded-xl uppercase /*bg-gradient-to-r*/ bg-[#FF0000] /*to-[#ff5959]*/
+    @apply shadow-lg shadow-red-400 rounded-xl uppercase /*bg-gradient-to-r*/ bg-[#FF0000] /*to-[#ff5959]*/
     text-white hover:scale-105 duration-200 ease-out
   }
 

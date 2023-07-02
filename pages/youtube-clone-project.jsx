@@ -72,7 +72,7 @@ const youtubeCloneProject = () => {
         </div>
         <div className='w-full max-w-[1240px] flex justify-start mx-auto'>
           <Link href='/#projects'>
-            <a target="_blank">
+            <a>
               <p className='underline underline-offset-4 cursor-pointer w-fit justify-start mr-auto mt-auto xl:pt-1 xl:static xl:mt-auto mb-4 xl:mb-5 ml-4 xl:hover:cursor-pointer'>
                 Back
               </p>
