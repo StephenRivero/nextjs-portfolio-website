@@ -127,7 +127,7 @@ const Navbar = () => {
                 <div 
                     className={
                         nav 
-                            ? 'fixed right-0 top-0 w-[70%] sm:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500' 
+                            ? 'fixed right-0 top-0 w-[70%] sm:w-[50%] md:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500' 
                             : 'fixed right-[-120%] top-0 p-10 ease-in duration-500'
                     }
                     onClick={e => e.stopPropagation()}
@@ -151,13 +151,13 @@ const Navbar = () => {
                                 <AiOutlineClose />
                             </div>
                         </div>
-                        <div className='border-b border-gray-300 my-4 mt-0'>
+                        <div className='border-b border-gray-300 my-4 mt-0 sm:my-0 md:my-4'>
                             <p className='w-[85%] md:w-[90%] py-4'>
                                 Let&apos;s build together
                             </p>
                         </div>
-                        <div className='py-4 flex flex-col'>
-                            <ul className='uppercase'>
+                        <div className='py-4'>
+                            <ul className='uppercase flex flex-col sm:flex-row sm:flex-wrap sm:justify-evenly md:flex-col'>
                                 {/* <Link href='/'>
                                     <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                                         Home
@@ -165,7 +165,7 @@ const Navbar = () => {
                                 </Link> */}
                                 <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                                     <a target={'_blank'}>
-                                        <li className='text-[#800020] animate-pulse py-4  font-bold text-sm uppercase  underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
+                                        <li className='text-[#800020] animate-pulse py-4 mr-5 font-bold text-sm uppercase  underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                             <span className='hover:scale-105 hover:animate-none'>
                                                 Resume
                                             </span>
@@ -173,17 +173,17 @@ const Navbar = () => {
                                     </a>
                                 </Link>
                                 <Link href='/#about'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm mr-5'>
                                         About
                                     </li>
                                 </Link>
                                 <Link href='/#skills'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm mr-5'>
                                         Skills
                                     </li>
                                 </Link>
                                 <Link href='/#projects'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm mr-5'>
                                         Projects
                                     </li>
                                 </Link>
@@ -195,7 +195,7 @@ const Navbar = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className='pt-10'>
+                    <div className='pt-10 sm:pt-0 md:pt-10'>
                         <p className='uppercase tracking-widest text-[#FF0000]'>
                             Let&apos;s Connect
                         </p>
