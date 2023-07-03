@@ -18,7 +18,7 @@ const Projects = () => {
             <h2 className='py-4 pl-5'>
                 What I&apos;ve Built
             </h2>
-            <div className='grid md:grid-cols-2 gap-8'>
+            <div className='grid sm:grid-cols-2 gap-4 md:gap-8 sm:w-full sm:mx-auto md:mx-0 md:w-full'>
                 <ProjectItem
                     title='YouTube Clone 2'
                     backgroundImg={youtubeClone2Img}
