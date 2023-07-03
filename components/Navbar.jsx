@@ -173,7 +173,7 @@ const Navbar = () => {
                                     </a>
                                 </Link>
                                 <Link href='/#about'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm mx-auto'>
+                                    <li onClick={()=> setNav(false)} className='py-4 text-sm sm:mx-auto'>
                                         About
                                     </li>
                                 </Link>
@@ -220,7 +220,7 @@ const Navbar = () => {
                                 </Link>
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-                                <Link href='https://drive.google.com/file/d/1pf9rwSeJaktobI7_iwQ70o2CEJiuQ7RQ/view?usp=share_link'>
+                                <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                                     <a target={'_blank'}>
                                         <BsFillPersonLinesFill className='text-[gray]'/>
                                     </a>
