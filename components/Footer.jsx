@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='flex flex-col sm:flex-row max-w-[1240px] mx-auto justify-center py-2'>
             <h3 className='flex text-center items-end justify-center gap-1'>
                 Built using
-                <Image src={reactIcon} alt="An icon of ReactJs" width='32px' height='32px' class="px-1"/>
+                <Image src={reactIcon} alt="An icon of ReactJs" width='32px' height='32px' className="px-1"/>
                 ReactJs,
             </h3>
             <h3 className='flex text-center items-end justify-center gap-1 mx-1'>  
