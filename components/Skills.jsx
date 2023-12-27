@@ -71,7 +71,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='order-4 h-fit p-[12px] sm:p-6 border border-blue-100 shadow-lg shadow-blue-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
+                    {/* <div className='order-4 h-fit p-[12px] sm:p-6 border border-blue-100 shadow-lg shadow-blue-400 rounded-xl hover:scale-105 ease-in-out duration-200'>
                         <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                             <svg alt='Typescript logo' xmlns="http://www.w3.org/2000/svg" width="64" height="64" version="1.1" viewBox="0 0 260 260">
                                 <path d="m9.75 0h240.5c5.385 0 9.75 4.3652 9.75 9.75v240.5c0 5.385-4.365 9.75-9.75 9.75h-240.5c-5.3848 0-9.75-4.365-9.75-9.75v-240.5c0-5.3848 4.3652-9.75 9.75-9.75z" fill="#fff"/>
@@ -83,7 +83,7 @@ const Skills = () => {
                                 </h3>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='order-5 h-fit p-3 sm:p-6 border border-cyan-100 shadow-lg shadow-cyan-300 rounded-xl hover:scale-105 ease-in-out duration-200'>
                         <div className='flex xl:flex-col justify-center items-center gap-5 xl:gap-2'>
                             <svg width={64} height={64} xmlns="http://www.w3.org/2000/svg" viewBox="-11.5 -10.23174 23 20.46348">

@@ -16,21 +16,9 @@ const About = () => {
                     {"//"} I&apos;m not your normal developer
                 </p>
                 <p className='py-2 px-1 text-gray-600 text-justify'>
-                    {/* I have over 7 years professional experience as a Licensed Sanitary Engineer in the Engineering Construction industry before becoming a Front-End Web Developer.
-                    Throughout those years my physical & mental health had declined gradually to the point that I&apos;d got overweight & constantly sick due to the set of circumstances as a Project Engineer. 
-
-                    It is during the “Pandemic Season” that I&apos;ve realized that I have to take a drastic change in my career plans.
-                    After researching & self-assessment, I had decided to pursue Front-End Web Development starting in January 2021 while still working as a Project Engineer. And after a year of learning Front-End Web Development in “
-                    <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer" className='font-bold xl:hover:cursor-pointer underline'>
-                        The Odin Project
-                    </a>
-                    ”, a free online web development course, I&apos;ve got my first job as a Front-End Web Developer on January 2022.
-                    I&apos;m now spending my free time building projects with ReactJs and NextJs and also learning new technologies. */}
-
                     I have <b>7 years</b> of professional experience as a <b>Licensed Sanitary Engineer</b> in the Engineering Construction industry before becoming a <b>Front-End Web Developer</b> for <b>2 years</b> now.
                     I transitioned into the Tech industry to tend to my widowed PWD mother, working from home. My father passed away in <b>September 2021</b>. That time, I was working on-site at Malvar, Batangas and immediately tended to the passing of my father and eventually resigned from working as an Engineer.
                     These tragic events paved the way for me to become a Front-End Web Developer in <b>January 2022</b>. I&apos;m now spending my free time building projects with <b>Tailwind Css</b>, <b>React.js</b>, <b>Next.js</b>, learning new technologies, and finishing up the <b>Meta Front-End Developer Professional Certificate</b> online course.
-
                 </p>
             </div>
             <div className='w-fit sm:mt-5 xl:mt-auto lg:mb-2 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
