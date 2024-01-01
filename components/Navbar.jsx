@@ -26,7 +26,6 @@ const Navbar = () => {
             setNavBg('#FFFFFF')
             setLinkColor('#282828')
         }
-        
     },[router])
 
     const handleNav = () => {
@@ -50,7 +49,7 @@ const Navbar = () => {
             <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
                 <Link href='/' className=''>
                     <a href="#/" className='flex gap-3 items-center  '> {/* mb-[-3px] mt-[1px]  */}
-                        <Image 
+                        <Image
                             className="rounded-full xl:hover:cursor-pointer"
                             src="/assets/logo-2-midjourney.png"
                             alt="Website Logo"
@@ -65,13 +64,13 @@ const Navbar = () => {
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
-                        {/* <Link href='/'>
+                        <Link href='/'>
                             <a href='#/'>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Home
                                 </li>
                             </a>
-                        </Link> */}
+                        </Link>
                         <Link href='/#about'>
                             <a href='#about'>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
@@ -100,17 +99,17 @@ const Navbar = () => {
                                 </li>
                             </a>
                         </Link>
-                        <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
+                        {/* <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                             <a target={'_blank'}>
                                 <li className='text-[#800020] animate-pulse hover:scale-105 hover:animate-none font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Resume
                                 </li>
                             </a>
-                        </Link>
+                        </Link> */}
                     </ul>
-                    <div 
+                    <div
                         style={{color: `${linkColor}`}}
-                        onClick={handleNav} 
+                        onClick={handleNav}
                         className='md:hidden'
                     >
                         <AiOutlineMenu size={25} />
@@ -118,15 +117,15 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div 
+            <div
                 className={
                     nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
                 }
                 onClick={()=> setNav(false)}
             >
-                <div 
+                <div
                     className={
-                        nav 
+                        nav
                             ? 'fixed right-0 top-0 w-[70%] sm:w-[35%] md:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500' 
                             : 'fixed right-[-120%] top-0 p-10 ease-in duration-500'
                     }
@@ -135,7 +134,7 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <Image 
+                                <Image
                                     className="rounded-full xl:hover:cursor-pointer"
                                     src="/assets/logo-2-midjourney.png"
                                     alt="Website Logo"
@@ -144,8 +143,8 @@ const Navbar = () => {
                                     onClick={()=> setNav(false)}
                                 />
                             </Link>
-                            <div 
-                                onClick={handleNav} 
+                            <div
+                                onClick={handleNav}
                                 className='rounded-full shadow-lg shadow-red-400 p-3 cursor-pointer mt-[-7px] mr-[-8px] text-[#FF0000]'
                             >
                                 <AiOutlineClose />
@@ -228,11 +227,10 @@ const Navbar = () => {
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
     )
 }
 
