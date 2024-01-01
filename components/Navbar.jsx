@@ -132,7 +132,7 @@ const Navbar = () => {
                                 <a>
                                     <Image
                                         className="rounded-full xl:hover:cursor-pointer"
-                                        src="/assets/logo-2-midjourney.png"
+                                        src="/assets/pro-headshot-cropped-1.png"
                                         alt="Website Logo"
                                         width="45px"
                                         height="45px"
@@ -154,13 +154,13 @@ const Navbar = () => {
                         </div>
                         <div className='py-4'>
                             <ul className='uppercase flex flex-col sm:flex-row sm:flex-wrap sm:justify-start md:flex-col'>
-                                {/* <Link href='/'>
+                                <Link href='/'>
                                     <a>
                                         <li onClick={()=> setNav(false)} className='py-4 text-sm'>
                                             Home
                                         </li>
                                     </a>
-                                </Link> */}
+                                </Link>
                                 {/* <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                                     <a target={'_blank'}>
                                         <li className='text-[#800020] animate-pulse py-4 font-bold text-sm uppercase  underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
