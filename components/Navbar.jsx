@@ -17,11 +17,6 @@ const Navbar = () => {
         if (router.asPath === '/youtube-clone-project' || router.asPath === '/youtube-clone-2' || router.asPath === '/metaversus') {
             setNavBg('black')
             setLinkColor('#FFFFFF')
-        // } else if (
-        //     router.asPath === '/metaversus'
-        // ) {
-        //     setNavBg('black')
-        //     setLinkColor('#FFFFFF')
         } else {
             setNavBg('#FFFFFF')
             setLinkColor('#282828')
@@ -47,11 +42,11 @@ const Navbar = () => {
     <div className='flex justify-center mx-auto'>
         <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-lg z-[100]  xl:px-5` : `fixed w-full h-fit z-[100]  xl:px-5` }>
             <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
-                <Link href='/' className=''>
-                    <a href="#/" className='flex gap-3 items-center  '> {/* mb-[-3px] mt-[1px]  */}
+                <Link href='/'>
+                    <a className='flex gap-3 items-center '>
                         <Image
-                            className="rounded-full xl:hover:cursor-pointer"
-                            src="/assets/logo-2-midjourney.png"
+                            className="rounded-full xl:hover:cursor-pointer object-cover"
+                            src="/assets/pro-headshot-cropped-1.png"
                             alt="Website Logo"
                             width="45px"
                             height="45px"
@@ -64,14 +59,15 @@ const Navbar = () => {
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
                         <Link href='/'>
-                            <a href='#/'>
+                            <a>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     Home
                                 </li>
                             </a>
                         </Link>
                         <Link href='/#about'>
-                            <a href='#about'>
+                            {/* <a href='#about'> */}
+                            <a>
                                 <li className='font-bold ml-10 text-sm uppercase hover:underline underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                     About
                                 </li>
@@ -133,14 +129,16 @@ const Navbar = () => {
                     <div>
                         <div className='flex w-full items-center justify-between'>
                             <Link href='/'>
-                                <Image
-                                    className="rounded-full xl:hover:cursor-pointer"
-                                    src="/assets/logo-2-midjourney.png"
-                                    alt="Website Logo"
-                                    width="45px"
-                                    height="45px"
-                                    onClick={()=> setNav(false)}
-                                />
+                                <a>
+                                    <Image
+                                        className="rounded-full xl:hover:cursor-pointer"
+                                        src="/assets/logo-2-midjourney.png"
+                                        alt="Website Logo"
+                                        width="45px"
+                                        height="45px"
+                                        onClick={()=> setNav(false)}
+                                    />
+                                </a>
                             </Link>
                             <div
                                 onClick={handleNav}
@@ -157,11 +155,13 @@ const Navbar = () => {
                         <div className='py-4'>
                             <ul className='uppercase flex flex-col sm:flex-row sm:flex-wrap sm:justify-start md:flex-col'>
                                 {/* <Link href='/'>
-                                    <li onClick={()=> setNav(false)} className='py-4 text-sm'>
-                                        Home
-                                    </li>
+                                    <a>
+                                        <li onClick={()=> setNav(false)} className='py-4 text-sm'>
+                                            Home
+                                        </li>
+                                    </a>
                                 </Link> */}
-                                <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
+                                {/* <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
                                     <a target={'_blank'}>
                                         <li className='text-[#800020] animate-pulse py-4 font-bold text-sm uppercase  underline-offset-2 cursor-pointer duration-200 ease-out tracking-wider'>
                                             <span className='hover:scale-105 hover:animate-none'>
@@ -169,7 +169,7 @@ const Navbar = () => {
                                             </span>
                                         </li>
                                     </a>
-                                </Link>
+                                </Link> */}
                                 <Link href='/#about'>
                                     <li onClick={()=> setNav(false)} className='py-4 text-sm sm:mx-auto'>
                                         About
