@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import ContactImg from '../public/assets/Stephen Pastor ID Picture.jpg';
+import ContactImg from '../public/assets/pro-headshot-cropped-1.png';
 import {AiOutlineMail} from 'react-icons/ai';
 import {FaAngleDoubleUp, FaGithub, FaLinkedinIn} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
@@ -28,8 +28,8 @@ const Contact = () => {
                                 Get In Touch
                             </h2>
                             <div className='flex w-fit self-center'>
-                                <Image 
-                                    className='rounded-xl ease-in duration-300 w-fit object-cover' 
+                                <Image
+                                    className='ease-in duration-300 w-fit object-cover rounded-full'
                                     src={ContactImg} alt="Profile picture" width="150px" height="150px"
                                 />{/* width="300px"  height="300px" hover:scale-105 */}
                             </div>
@@ -135,9 +135,9 @@ const Contact = () => {
                 <Link href='/'>
                     <a>
                         <div className='rounded-full shadow-lg shadow-red-400 p-4 cursor-pointer hover:scale-110 ease-out duration-200'>
-                            <FaAngleDoubleUp 
+                            <FaAngleDoubleUp
                                 className='text-[#FF0000]'
-                                size={30} 
+                                size={30}
                             />
                         </div>
                     </a>
