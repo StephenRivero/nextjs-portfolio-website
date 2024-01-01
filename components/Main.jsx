@@ -3,26 +3,34 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center sm:mt-8 md:mt-0'>
+        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center sm:mt-8 md:mt-8 xl:mt-5'>
             <div>
-                <p className='uppercase text-sm tracking-widest text-gray-600'>
+                {/* <p className='uppercase text-sm tracking-widest text-gray-600'>
                     LET&apos;S BUILD TOGETHER
-                </p>
-                <h1 className='py-4 sm:py-0 sm:pt-4 sm:pb-2 text-gray-700 sm:leading-none md:leading-normal'>
-                    Hi, I&apos;m  
+                </p> */}
+                <Image
+                    className="rounded-full object-cover"
+                    src="/assets/pro-headshot-cropped-1.png"
+                    alt="Website Logo"
+                    width="200px"
+                    height="200px"
+                />
+                <h2 className='py-4 sm:py-0 sm:pt-4 xl:pt-0 sm:pb-2 xl:pb-1 text-gray-700 sm:leading-none md:leading-normal'>
+                    Hi, I&apos;m
                     <span className='text-[#800020] ml-4'>{/* #FF0000  #63000A*/}
                         Stephen
                     </span>
-                </h1>
-                <h1 className='py-2 px-2 text-gray-700'>
+                </h2>
+                <h2 className='py-2 xl:py-0 px-2 text-gray-700'>
                     A Front-End Web Developer
-                </h1>
-                <p className='py-4 px-2 text-gray-600 max-w-[100%] m-auto md:pt-10 '>{/* lg:pt-8 */}
-                    Specialized in building your exceptional web designs.
+                </h2>
+                <p className='py-4 px-2 text-gray-600 max-w-[100%] m-auto md:pt-5 '>{/* lg:pt-8 */}
+                    Specialized in turning designs into software.
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4 px-1'>
                     <Link href='https://www.linkedin.com/in/stephen-pastor/'>

@@ -60,7 +60,6 @@ const Navbar = () => {
                             Stephen Rivero
                         </div>
                     </a>
-
                 </Link>
                 <div>
                     <ul style={{color: `${linkColor}`}} className='hidden md:flex'>
