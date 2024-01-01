@@ -8,18 +8,29 @@ import Image from 'next/image'
 const Main = () => {
   return (
     <div id='home' className='w-full h-screen text-center'>
-        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center sm:mt-8 md:mt-8 xl:mt-5'>
+        <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center mt-4 sm:mt-8 md:mt-8 xl:mt-5'>
             <div>
                 {/* <p className='uppercase text-sm tracking-widest text-gray-600'>
                     LET&apos;S BUILD TOGETHER
                 </p> */}
-                <Image
-                    className="rounded-full object-cover"
-                    src="/assets/pro-headshot-cropped-1.png"
-                    alt="Website Logo"
-                    width="200px"
-                    height="200px"
-                />
+                <div className='sm:hidden'>
+                    <Image
+                        className="rounded-full object-cover"
+                        src="/assets/pro-headshot-cropped-1.png"
+                        alt="Website Logo"
+                        width="126px"
+                        height="126px"
+                    />
+                </div>
+                <div className='hidden sm:block'>
+                    <Image
+                        className="rounded-full object-cover"
+                        src="/assets/pro-headshot-cropped-1.png"
+                        alt="Website Logo"
+                        width="200px"
+                        height="200px"
+                    />
+                </div>
                 <h2 className='pt-4 pb-2 sm:py-0 sm:pt-1 xl:pt-0 xl:pb-1 text-gray-700 sm:leading-none md:leading-normal'>
                     Hi, I&apos;m
                     <span className='text-[#800020] ml-4'>{/* #FF0000  #63000A*/}
