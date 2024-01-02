@@ -40,7 +40,7 @@ const Navbar = () => {
 
     return (
     <div className='flex justify-center mx-auto'>
-        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-lg z-[100]  xl:px-5` : `fixed w-full h-fit z-[100]  xl:px-5` }>
+        <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-lg z-[100] py-1 xl:px-5` : `fixed w-full h-fit z-[100] py-1 xl:px-5` }>
             <div className={`flex justify-between items-center w-full h-full max-w-7xl py-1 2xl:py-2 px-4 xl:px-5 mx-auto`}>
                 <Link href='/'>
                     <a className='flex gap-3 items-center '>
@@ -48,10 +48,12 @@ const Navbar = () => {
                             className="rounded-full xl:hover:cursor-pointer object-cover"
                             src="/assets/pro-headshot-cropped-1.png"
                             alt="Website Logo"
-                            width="45px"
-                            height="45px"
+                            // width="45px"
+                            // height="45px"
+                            width="32px"
+                            height="32px"
                         />
-                        <div className='text-[#800020] font-[600] text-xl md:text-lg lg:text-2xl font-[Ubuntu] uppercase leading-none'>
+                        <div className='text-[#800020] font-[600] text-xl md:text-lg lg:text-xl font-[Ubuntu] uppercase leading-none'>
                             Stephen Rivero
                         </div>
                     </a>
@@ -131,7 +133,7 @@ const Navbar = () => {
                             <Link href='/'>
                                 <a>
                                     <Image
-                                        className="rounded-full xl:hover:cursor-pointer"
+                                        className="rounded-full xl:hover:cursor-pointer object-cover"
                                         src="/assets/pro-headshot-cropped-1.png"
                                         alt="Website Logo"
                                         width="45px"
