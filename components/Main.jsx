@@ -91,7 +91,7 @@ const Main = () => {
                 </motion.p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4 px-1'>
                     <Link href='https://www.linkedin.com/in/stephen-pastor/'>
-                        <a target={'_blank'}>
+                        <a target={'_blank'} className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0, }}
@@ -100,14 +100,14 @@ const Main = () => {
                                     delay: 2,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
-                                className='rounded-full shadow-lg shadow-blue-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'
+                                className='rounded-full shadow-lg shadow-blue-400 p-6'
                             >
                                 <FaLinkedinIn className='text-[#0A66C2]'/>
                             </motion.div>
                         </a>
                     </Link>
                     <Link href='https://github.com/StephenRivero'>
-                        <a target={'_blank'}>
+                        <a target={'_blank'} className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0, }}
@@ -116,28 +116,30 @@ const Main = () => {
                                     delay: 2.25,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
-                                className='rounded-full shadow-lg shadow-gray-500 p-6 cursor-pointer hover:scale-110 ease-out duration-200'
+                                className='rounded-full shadow-lg shadow-gray-500 p-6'
                             >
                                 <FaGithub />
                             </motion.div>
                         </a>
                     </Link>
                     <Link href='/#contact'>
-                        <motion.div
-                            initial={{ opacity: 0, y: 50 }}
-                            animate={{ opacity: 1, y: 0, }}
-                            transition={{
-                                duration: 1,
-                                delay: 2.5,
-                                ease: [0, 0.71, 0.2, 1.01]
-                              }}
-                            className='rounded-full shadow-lg shadow-red-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'
-                        >
-                            <AiOutlineMail className='text-[red]'/>
-                        </motion.div>
+                        <a className='cursor-pointer hover:scale-110 ease-out duration-200'>
+                            <motion.div
+                                initial={{ opacity: 0, y: 50 }}
+                                animate={{ opacity: 1, y: 0, }}
+                                transition={{
+                                    duration: 1,
+                                    delay: 2.5,
+                                    ease: [0, 0.71, 0.2, 1.01]
+                                  }}
+                                className='rounded-full shadow-lg shadow-red-400 p-6'
+                            >
+                                <AiOutlineMail className='text-[red]'/>
+                            </motion.div>
+                        </a>
                     </Link>
                     <Link href='https://drive.google.com/file/d/1K5YiSohJ3VwocU03TEoE4elBc-2twqRC/view?usp=drive_link'>
-                        <a target={'_blank'}>
+                        <a target={'_blank'} className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
                                 animate={{ opacity: 1, y: 0, }}
@@ -146,7 +148,7 @@ const Main = () => {
                                     delay: 2.75,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
-                                className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-out duration-200'
+                                className='rounded-full shadow-lg shadow-gray-400 p-6 '
                             >
                                 <BsFillPersonLinesFill className='text-[gray]'/>
                             </motion.div>
