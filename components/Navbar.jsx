@@ -14,26 +14,26 @@ const Navbar = () => {
     const [linkColor, setLinkColor] = useState('#282828')
     const router = useRouter()
 
-    const navVariants = {
-        hidden: {
-          opacity: 0,
-          y: -50,
-        //   transition: {
-        //     type: 'spring',
-        //     stiffness: 300,
-        //     damping: 140,
-        //   },
-        },
-        show: {
-          opacity: 1,
-          y: 0,
-        //   transition: {
-        //     type: 'spring',
-        //     stiffness: 80,
-        //     delay: 1,
-        //   },
-        },
-      };
+    // const navVariants = {
+    //     hidden: {
+    //       opacity: 0,
+    //       y: -50,
+    //     //   transition: {
+    //     //     type: 'spring',
+    //     //     stiffness: 300,
+    //     //     damping: 140,
+    //     //   },
+    //     },
+    //     show: {
+    //       opacity: 1,
+    //       y: 0,
+    //     //   transition: {
+    //     //     type: 'spring',
+    //     //     stiffness: 80,
+    //     //     delay: 1,
+    //     //   },
+    //     },
+    //   };
 
     useEffect(()=>{
         if (router.asPath === '/youtube-clone-project' || router.asPath === '/youtube-clone-2' || router.asPath === '/metaversus') {
@@ -61,10 +61,10 @@ const Navbar = () => {
     },[])
 
     return (
-        <motion.div
-            variants={navVariants}
-            initial="hidden"
-            animate="show"
+        <div
+            // variants={navVariants}
+            // initial="hidden"
+            // animate="show"
             className='flex justify-center mx-auto'
         >
             <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-lg z-[100] py-1 xl:px-5` : `fixed w-full h-fit z-[100] py-1 xl:px-5` }>
@@ -258,7 +258,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </div>
     )
 }
 
