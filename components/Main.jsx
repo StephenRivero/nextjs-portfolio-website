@@ -16,10 +16,11 @@ const Main = () => {
                 </p> */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1, scale: 1 }}
+                    // animate={{ opacity: 1, scale: 1 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
                     transition={{
                       duration: 0.8,
-                      delay: 0.5,
+                      delay: 0.2,
                       ease: [0, 0.71, 0.2, 1.01]
                     }}
                     className='sm:hidden'
@@ -34,10 +35,10 @@ const Main = () => {
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{ opacity: 1, scale: 1 }}
+                    whileInView={{ opacity: 1, scale: 1 }}
                     transition={{
                       duration: 0.8,
-                      delay: 0.5,
+                      delay: 0.2,
                       ease: [0, 0.71, 0.2, 1.01]
                     }}
                     className='hidden sm:block'
@@ -51,11 +52,11 @@ const Main = () => {
                     />
                 </motion.div>
                 <motion.h2
-                    initial={{ opacity: 0, x: -500 }}
-                    animate={{ opacity: 1, x: 0, delay: 1, }}
+                    initial={{ opacity: 0, y: -50 }}
+                    whileInView={{ opacity: 1, y: 0, }}
                     transition={{
                         duration: 1,
-                        delay: 0.5,
+                        delay: 0.30,
                         ease: [0, 0.71, 0.2, 1.01]
                       }}
                     className='pt-4 pb-2 sm:py-0 sm:pt-1 xl:pt-0 xl:pb-1 text-gray-700 sm:leading-none md:leading-normal'
@@ -66,11 +67,11 @@ const Main = () => {
                     </span>
                 </motion.h2>
                 <motion.h2
-                    initial={{ opacity: 0, x: 500 }}
-                    animate={{ opacity: 1, x: 0, }}
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0, }}
                     transition={{
                         duration: 1,
-                        delay: 1,
+                        delay: 0.4,
                         ease: [0, 0.71, 0.2, 1.01]
                       }}
                     className='pb-1 xl:py-0 px-2 text-gray-700'
@@ -79,10 +80,10 @@ const Main = () => {
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0, }}
+                    whileInView={{ opacity: 1, y: 0, }}
                     transition={{
                         duration: 1,
-                        delay: 2,
+                        delay: 0.5,
                         ease: [0, 0.71, 0.2, 1.01]
                       }}
                     className='py-4 px-2 text-gray-600 max-w-[100%] m-auto sm:pt-4 xl:pt-5'
@@ -94,10 +95,10 @@ const Main = () => {
                         <a target={'_blank'} className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0, }}
+                                whileInView={{ opacity: 1, y: 0, }}
                                 transition={{
                                     duration: 1,
-                                    delay: 2,
+                                    delay: 0.6,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
                                 className='rounded-full shadow-lg shadow-blue-400 p-6'
@@ -110,10 +111,10 @@ const Main = () => {
                         <a target={'_blank'} className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0, }}
+                                whileInView={{ opacity: 1, y: 0, }}
                                 transition={{
                                     duration: 1,
-                                    delay: 2.25,
+                                    delay: .7,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
                                 className='rounded-full shadow-lg shadow-gray-500 p-6'
@@ -126,10 +127,10 @@ const Main = () => {
                         <a className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0, }}
+                                whileInView={{ opacity: 1, y: 0, }}
                                 transition={{
                                     duration: 1,
-                                    delay: 2.5,
+                                    delay: .8,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
                                 className='rounded-full shadow-lg shadow-red-400 p-6'
@@ -142,10 +143,10 @@ const Main = () => {
                         <a target={'_blank'} className='cursor-pointer hover:scale-110 ease-out duration-200'>
                             <motion.div
                                 initial={{ opacity: 0, y: 50 }}
-                                animate={{ opacity: 1, y: 0, }}
+                                whileInView={{ opacity: 1, y: 0, }}
                                 transition={{
                                     duration: 1,
-                                    delay: 2.75,
+                                    delay: .9,
                                     ease: [0, 0.71, 0.2, 1.01]
                                   }}
                                 className='rounded-full shadow-lg shadow-gray-400 p-6 '

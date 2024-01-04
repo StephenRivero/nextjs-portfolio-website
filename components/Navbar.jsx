@@ -5,7 +5,7 @@ import {AiOutlineMenu, AiOutlineClose, AiOutlineMail} from 'react-icons/ai'
 import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import { useRouter } from 'next/router'
-import { motion } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -13,27 +13,6 @@ const Navbar = () => {
     const [navBg, setNavBg] = useState('#FFFFFF')
     const [linkColor, setLinkColor] = useState('#282828')
     const router = useRouter()
-
-    // const navVariants = {
-    //     hidden: {
-    //       opacity: 0,
-    //       y: -50,
-    //     //   transition: {
-    //     //     type: 'spring',
-    //     //     stiffness: 300,
-    //     //     damping: 140,
-    //     //   },
-    //     },
-    //     show: {
-    //       opacity: 1,
-    //       y: 0,
-    //     //   transition: {
-    //     //     type: 'spring',
-    //     //     stiffness: 80,
-    //     //     delay: 1,
-    //     //   },
-    //     },
-    //   };
 
     useEffect(()=>{
         if (router.asPath === '/youtube-clone-project' || router.asPath === '/youtube-clone-2' || router.asPath === '/metaversus') {
@@ -61,10 +40,14 @@ const Navbar = () => {
     },[])
 
     return (
-        <div
-            // variants={navVariants}
-            // initial="hidden"
-            // animate="show"
+        <motion.div
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0, }}
+            transition={{
+                duration: 1,
+                // delay: 1,
+                ease: [0, 0.71, 0.2, 1.01]
+            }}
             className='flex justify-center mx-auto'
         >
             <div style={{backgroundColor: `${navBg}`}} className={ shadow ? `fixed w-full h-fit shadow-lg z-[100] py-1 xl:px-5` : `fixed w-full h-fit z-[100] py-1 xl:px-5` }>
@@ -141,16 +124,21 @@ const Navbar = () => {
                     </div>
                 </div>
 
+                {/* Mobile Navbar */}
                 <div
-                    className={
-                        nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : ''
-                    }
+                    // initial={{ display: 'none' }}
+                    // animate={{ display: 'fixed' }}
+                    // transition={{ delay: 2 }}
+                    className={ nav ? 'md:hidden fixed left-0 top-0 w-full h-screen bg-black/70' : '' }
                     onClick={()=> setNav(false)}
                 >
-                    <div
+                    <motion.div
+                        initial={{ display: 'none' }}
+                        animate={{ display: 'block' }}
+                        transition={{ delay: 2 }}
                         className={
                             nav
-                                ? 'fixed right-0 top-0 w-[70%] sm:w-[35%] md:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500' 
+                                ? 'fixed right-0 top-0 w-[70%] sm:w-[35%] md:w-[40%] h-screen flex flex-col justify-between bg-[#FFFFFF] p-4 pt-2 ease-in duration-500'
                                 : 'fixed right-[-120%] top-0 p-10 ease-in duration-500'
                         }
                         onClick={e => e.stopPropagation()}
@@ -255,10 +243,10 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

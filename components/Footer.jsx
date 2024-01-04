@@ -15,7 +15,7 @@ const Footer = () => {
                 <Image src={reactIcon} alt="An icon of ReactJs" width='32px' height='32px' className="px-1"/>
                 ReactJs,
             </h3>
-            <h3 className='flex text-center items-end justify-center gap-1 mx-1'>  
+            <h3 className='flex text-center items-end justify-center gap-1 mx-1'>
                 <Image src={nextjsIcon} alt="An icon of NextJs" width='32px' height='32px' className='px-1'/>
                 NextJs and
             </h3>
